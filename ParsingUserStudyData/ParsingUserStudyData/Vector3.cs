@@ -11,5 +11,11 @@ namespace ParsingUserStudyData
         public float x;
         public float y;
         public float z;
+
+        public float GetDistance (Vector3 other) {
+            float distance = 0.0f;
+            distance = (float) Math.Sqrt((x - other.x) * (x - other.x) + (y - other.y) * (y - other.y) + (z - other.z) * (z - other.z));
+            return distance;
+        }
     };
 }
