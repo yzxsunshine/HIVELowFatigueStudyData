@@ -1,0 +1,49 @@
+#Time To Switch#	#Num of Incorrect Switch#	#Target Mode#	#Current Mode#
+1.11075	0	Walking	Walking
+0	0		
+1.608637	0	Walking	Walking
+0	0		
+2.58603	0	Segway	Segway
+0	0		
+1.575156	0	Segway	Segway
+0	0		
+2.121576	0	Surfing	Surfing
+0	0		
+3.531798	0	Surfing	Surfing
+0	0		
+1.591735	0	Surfing	Surfing
+0	0		
+2.735199	0	Surfing	Surfing
+0	0		
+3.099918	0	Walking	Walking
+0	0		
+1.525729	0	Surfing	Surfing
+0	0		
+1.325417	0	Walking	Walking
+0	0		
+1.193614	0	Segway	Segway
+0	0		
+0.5636618	0	Walking	Walking
+0	0		
+1.873311	0	Segway	Segway
+0	0		
+0.9277028	0	Segway	Segway
+0	0		
+0.8947473	0	Segway	Segway
+0	0		
+1.806778	0	Walking	Walking
+0	0		
+0.9781052	0	Segway	Segway
+0	0		
+1.939954	0	Walking	Walking
+0	0		
+0.7289983	0	Segway	Segway
+0	0		
+1.42546	0	Walking	Walking
+0	0		
+3.614089	0	Surfing	Surfing
+0	0		
+1.160477	0	Surfing	Surfing
+0	0		
+0.9617368	0	Surfing	Surfing
+0	0		
