@@ -16,8 +16,21 @@ namespace ParsingUserStudyData
         }
     };
 
+    class DescriptiveStatisticData {
+        public List<float> dataList;
+        public float mean;
+        public float std;
+        public void AddData (float data) {
+            dataList.Add(data);
+        }
+
+
+    }
+
     class TrialData {
         float time;
+        float startTime;
+        float endTime;
         int numCollision;
         float avgDistance;
         float stdDistance;
@@ -37,7 +50,7 @@ namespace ParsingUserStudyData
         {
             StreamReader sr = new StreamReader(filePath);
             string line;
-            float endTime = 0;
+            endTime = 0;
             List<float> distances = new List<float>();
             int numLine = 0;
             while ((line = sr.ReadLine()) != null)
@@ -97,7 +110,7 @@ namespace ParsingUserStudyData
                     if (modeSwitchData.switchTime >= 0)
                     {
                         modeSwitchData.switchTime = timeStamp - modeSwitchData.switchTime;
-                        time = timeStamp;
+                        startTime = timeStamp;
                     }
                 }
 
@@ -119,10 +132,8 @@ namespace ParsingUserStudyData
 
                 }
             }
-            time = endTime - time;
+            time = endTime - startTime;
             avgDistance /= numLine;
-            
-
         }
     };
 

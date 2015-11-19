@@ -1,0 +1,4290 @@
+#Time To Switch#	#Num of Incorrect Switch#	#Target Mode#	#Current Mode#
+1.823046	0	Walking	Walking
+2.022259	0	Walking	
+2.188013	0	Walking	Walking
+2.552962	0	Walking	Walking
+2.569421	0	Walking	Walking
+2.668514	0	Walking	
+2.718655	0	Walking	Walking
+3.04995	0	Walking	
+3.099809	0	Walking	Walking
+3.364426	0	Walking	
+3.397951	0	Walking	Walking
+3.563646	0	Walking	Walking
+3.580241	0	Walking	Walking
+3.729701	0	Walking	
+3.762886	0	Walking	Walking
+4.094185	0	Walking	
+4.144211	0	Walking	Walking
+4.824699	0	Walking	
+4.873472	0	Walking	Walking
+6.663875	0	Walking	
+7.476342	0	Walking	Walking
+9.167818	0	Walking	
+9.234656	0	Walking	Walking
+9.813913	0	Walking	
+10.29542	0	Walking	Walking
+10.46047	0	Walking	
+10.51045	0	Walking	Walking
+10.72573	0	Walking	
+10.76007	0	Walking	Walking
+10.9416	0	Walking	
+11.78734	0	Walking	Walking
+12.36716	0	Walking	
+12.56616	0	Walking	Walking
+12.71512	0	Walking	
+13.36207	0	Walking	Walking
+13.84371	0	Walking	
+14.37326	0	Walking	Walking
+14.57228	0	Walking	
+14.62236	0	Walking	Walking
+14.70479	0	Walking	
+14.72116	0	Walking	Walking
+14.77131	0	Walking	
+14.83732	0	Walking	Walking
+14.88777	0	Walking	
+14.93661	0	Walking	Walking
+14.96984	0	Walking	
+15.03656	0	Walking	Walking
+15.06957	0	Walking	
+15.10288	0	Walking	Walking
+15.16946	0	Walking	
+15.20185	0	Walking	Walking
+15.28497	0	Walking	
+15.30169	0	Walking	Walking
+15.35121	0	Walking	
+15.40073	0	Walking	Walking
+15.46721	0	Walking	
+15.50065	0	Walking	Walking
+15.5513	0	Walking	
+15.58324	0	Walking	Walking
+15.83256	0	Walking	
+15.88176	0	Walking	Walking
+15.99774	0	Walking	
+16.0477	0	Walking	Walking
+16.11337	0	Walking	
+16.19702	0	Walking	Walking
+16.31299	0	Walking	
+16.32985	0	Walking	Walking
+16.42992	0	Walking	
+16.49579	0	Walking	Walking
+16.6277	0	Walking	
+16.67765	0	Walking	Walking
+16.77758	0	Walking	
+16.82708	0	Walking	Walking
+16.94249	0	Walking	
+18.07021	0	Walking	Walking
+18.58448	0	Walking	
+18.65096	0	Walking	Walking
+18.74959	0	Walking	
+18.79926	0	Walking	Walking
+18.91608	0	Walking	
+18.99831	0	Walking	Walking
+19.0814	0	Walking	
+19.14778	0	Walking	Walking
+19.24701	0	Walking	
+19.29662	0	Walking	Walking
+20.00951	0	Walking	
+20.14223	0	Walking	Walking
+20.29193	0	Walking	
+20.32479	0	Walking	Walking
+20.44075	0	Walking	
+20.50732	0	Walking	Walking
+20.62295	0	Walking	
+20.70564	0	Walking	Walking
+20.78868	0	Walking	
+20.85497	0	Walking	Walking
+20.97121	0	Walking	
+21.02121	0	Walking	Walking
+21.58504	0	Walking	
+21.86593	0	Walking	Walking
+21.98239	0	Walking	
+22.06498	0	Walking	Walking
+22.14778	0	Walking	
+22.23081	0	Walking	Walking
+22.33101	0	Walking	
+22.39646	0	Walking	Walking
+22.49601	0	Walking	
+22.57895	0	Walking	Walking
+22.66174	0	Walking	
+22.72803	0	Walking	Walking
+22.82811	0	Walking	
+22.89438	0	Walking	Walking
+22.99331	0	Walking	
+23.19257	0	Walking	Walking
+23.35848	0	Walking	
+23.42457	0	Walking	Walking
+23.54054	0	Walking	
+23.55798	0	Walking	Walking
+23.65749	0	Walking	
+23.68986	0	Walking	Walking
+23.82205	0	Walking	
+23.83904	0	Walking	Walking
+23.93836	0	Walking	
+23.98821	0	Walking	Walking
+24.28628	0	Walking	
+24.33629	0	Walking	Walking
+24.43572	0	Walking	
+24.472	0	Walking	Walking
+24.5519	0	Walking	
+24.58553	0	Walking	Walking
+24.71775	0	Walking	
+24.73414	0	Walking	Walking
+24.83366	0	Walking	
+24.86677	0	Walking	Walking
+25.01592	0	Walking	
+25.04945	0	Walking	Walking
+25.13209	0	Walking	
+25.18248	0	Walking	Walking
+25.41434	0	Walking	
+26.65754	0	Walking	Walking
+27.85157	0	Walking	
+28.4645	0	Walking	Walking
+28.51443	0	Walking	
+28.54982	0	Walking	Walking
+28.66401	0	Walking	
+28.68072	0	Walking	Walking
+28.76374	0	Walking	
+28.81368	0	Walking	Walking
+28.89618	0	Walking	
+28.94639	0	Walking	Walking
+29.02927	0	Walking	
+29.07854	0	Walking	Walking
+29.17786	0	Walking	
+29.21107	0	Walking	Walking
+29.27713	0	Walking	
+29.31079	0	Walking	Walking
+29.39334	0	Walking	
+29.44312	0	Walking	Walking
+29.50939	0	Walking	
+29.55959	0	Walking	Walking
+29.62536	0	Walking	
+29.67535	0	Walking	Walking
+29.72477	0	Walking	
+29.77497	0	Walking	Walking
+29.85765	0	Walking	
+29.89106	0	Walking	Walking
+29.95734	0	Walking	
+29.99005	0	Walking	Walking
+30.0902	0	Walking	
+30.12354	0	Walking	Walking
+30.18924	0	Walking	
+30.22276	0	Walking	Walking
+30.35572	0	Walking	
+30.38807	0	Walking	Walking
+30.48796	0	Walking	
+30.52057	0	Walking	Walking
+30.78576	0	Walking	
+30.83644	0	Walking	Walking
+30.95216	0	Walking	
+31.0012	0	Walking	Walking
+31.06899	0	Walking	
+31.93005	0	Walking	Walking
+33.62103	0	Walking	
+34.58294	0	Walking	Walking
+34.89843	0	Walking	
+35.26238	0	Walking	Walking
+35.3127	0	Walking	
+35.34542	0	Walking	Walking
+35.42905	0	Walking	
+35.47848	0	Walking	Walking
+35.54446	0	Walking	
+35.61148	0	Walking	Walking
+35.67702	0	Walking	
+35.71042	0	Walking	Walking
+35.77688	0	Walking	
+35.8262	0	Walking	Walking
+35.89268	0	Walking	
+35.92579	0	Walking	Walking
+35.97633	0	Walking	
+36.02553	0	Walking	Walking
+36.1081	0	Walking	
+36.14129	0	Walking	Walking
+36.2074	0	Walking	
+36.25759	0	Walking	Walking
+36.34029	0	Walking	
+36.39018	0	Walking	Walking
+36.45692	0	Walking	
+36.53939	0	Walking	Walking
+36.62211	0	Walking	
+36.68838	0	Walking	Walking
+36.77112	0	Walking	
+36.87088	0	Walking	Walking
+36.95379	0	Walking	
+37.03686	0	Walking	Walking
+0	0		
+0.01591071	0		
+0.03234003	0		
+0.04926287	0		
+0.06538127	0		
+0.1316736	1		
+0.1493361	2		
+0.1648109	3		
+0.1819858	4		
+0.1981879	5		
+0.2147632	6		
+0.2323532	7		
+0.2978138	8		
+0.3147974	9		
+1.027729	10		
+1.043601	11		
+1.059965	12		
+1.077568	13		
+1.093261	14		
+1.109723	15		
+1.12689	16		
+1.143055	17		
+1.159361	18		
+1.175972	19		
+1.193209	20		
+1.209453	21		
+1.225815	22		
+1.242674	23		
+1.258926	24		
+1.276541	25		
+1.292081	26		
+1.308641	27		
+1.325359	28		
+1.342722	29		
+1.358864	30		
+1.375212	31		
+1.391425	32		
+1.408318	33		
+1.424696	34		
+1.441446	35		
+1.457794	36		
+1.475945	37		
+1.491157	38		
+1.507917	39		
+1.524437	40		
+1.540686	41		
+1.558268	42		
+1.574134	43		
+1.591672	44		
+1.607189	45		
+1.624466	46		
+1.640233	47		
+1.657447	48		
+2.552117	49		
+2.568674	50		
+2.585134	51		
+2.602613	52		
+2.618578	53		
+2.635061	54		
+2.651484	55		
+2.668205	56		
+2.685805	57		
+2.701309	58		
+2.717777	59		
+2.734619	60		
+2.751862	61		
+2.767513	62		
+0.6962535	0	Walking	Walking
+0.795664	0	Walking	
+0.8629381	0	Walking	Walking
+0.9616362	0	Walking	
+1.011925	0	Walking	Walking
+1.077681	0	Walking	
+1.144216	0	Walking	Walking
+1.226906	0	Walking	
+1.293871	0	Walking	Walking
+1.359608	0	Walking	
+1.426129	0	Walking	Walking
+1.508863	0	Walking	
+1.575444	0	Walking	Walking
+1.641097	0	Walking	
+1.725033	0	Walking	Walking
+1.823732	0	Walking	
+1.8572	0	Walking	Walking
+1.939828	0	Walking	
+2.022584	0	Walking	Walking
+2.072661	0	Walking	
+2.868556	0	Walking	Walking
+3.91283	0	Walking	
+4.542898	0	Walking	Walking
+4.923854	0	Walking	
+5.338876	0	Walking	Walking
+5.354843	0	Walking	
+5.405313	0	Walking	Walking
+5.487598	0	Walking	
+5.537951	0	Walking	Walking
+5.620056	0	Walking	
+5.670321	0	Walking	Walking
+5.753209	0	Walking	
+5.819302	0	Walking	Walking
+5.885573	0	Walking	
+5.985004	0	Walking	Walking
+6.068418	0	Walking	
+6.134673	0	Walking	Walking
+6.217228	0	Walking	
+6.316883	0	Walking	Walking
+6.383013	0	Walking	
+6.482418	0	Walking	Walking
+6.548837	0	Walking	
+6.631845	0	Walking	Walking
+6.731144	0	Walking	
+6.797692	0	Walking	Walking
+6.880385	0	Walking	
+7.56017	0	Walking	Walking
+9.002718	0	Walking	
+9.615646	0	Walking	Walking
+9.963764	0	Walking	
+10.41076	0	Walking	Walking
+10.49354	0	Walking	
+10.54368	0	Walking	Walking
+10.5934	0	Walking	
+10.69265	0	Walking	Walking
+10.75912	0	Walking	
+10.84163	0	Walking	Walking
+10.92459	0	Walking	
+11.00783	0	Walking	Walking
+11.10741	0	Walking	
+11.17336	0	Walking	Walking
+11.23963	0	Walking	
+11.32272	0	Walking	Walking
+11.45511	0	Walking	
+11.52228	0	Walking	Walking
+11.60489	0	Walking	
+11.68772	0	Walking	Walking
+11.7702	0	Walking	
+11.85365	0	Walking	Walking
+11.91928	0	Walking	
+12.88111	0	Walking	Walking
+13.87628	0	Walking	
+14.42325	0	Walking	Walking
+14.6553	0	Walking	
+15.05336	0	Walking	Walking
+15.1034	0	Walking	
+15.18628	0	Walking	Walking
+15.26889	0	Walking	
+15.35238	0	Walking	Walking
+15.43489	0	Walking	
+15.50193	0	Walking	Walking
+15.61707	0	Walking	
+15.66742	0	Walking	Walking
+15.73368	0	Walking	
+15.81621	0	Walking	Walking
+15.91548	0	Walking	
+15.98248	0	Walking	Walking
+16.09833	0	Walking	
+16.14745	0	Walking	Walking
+16.28035	0	Walking	
+16.91003	0	Walking	Walking
+18.41973	0	Walking	
+18.83375	0	Walking	Walking
+18.90001	0	Walking	
+18.93309	0	Walking	Walking
+19.01629	0	Walking	
+19.132	0	Walking	Walking
+19.19841	0	Walking	
+19.28184	0	Walking	Walking
+19.38101	0	Walking	
+19.46377	0	Walking	Walking
+19.54685	0	Walking	
+19.62939	0	Walking	Walking
+19.72898	0	Walking	
+19.79578	0	Walking	Walking
+19.87804	0	Walking	
+19.97753	0	Walking	Walking
+20.02793	0	Walking	
+0	0		
+0.01649814	0		
+0.6134749	1		
+0.6305726	2		
+0.6467806	3		
+0.6630338	4		
+0.6803773	5		
+0.6961597	6		
+0.7133776	7		
+0.7291386	8		
+0.7465199	9		
+0.7630354	10		
+0.779057	11		
+0.796806	12		
+0.8121178	13		
+0.8287706	14		
+0.8454538	15		
+0.8619272	16		
+0.8782988	17		
+0.8950043	18		
+0.9124266	19		
+0.9281346	20		
+0.9448361	21		
+0.9616148	22		
+0.9788144	23		
+0.9954582	24		
+1.011313	25		
+1.027599	26		
+1.044823	27		
+1.060802	28		
+1.077466	29		
+1.093864	30		
+1.111368	31		
+1.127339	32		
+2.387734	1	Segway	
+2.403983	2	Segway	
+2.851748	2	Segway	Segway
+5.719882	2	Segway	Segway
+5.735914	2	Segway	
+6.017652	3	Segway	
+6.033927	3	Segway	Segway
+8.736905	3	Segway	Segway
+8.753252	3	Segway	
+9.018493	4	Segway	
+9.034935	5	Segway	
+9.051404	6	Segway	
+9.067882	7	Segway	
+9.084671	8	Segway	
+9.101346	9	Segway	
+9.117448	10	Segway	
+9.13411	11	Segway	
+9.151567	12	Segway	
+9.167354	13	Segway	
+9.183735	14	Segway	
+9.200288	15	Segway	
+9.217525	16	Segway	
+9.233653	17	Segway	
+9.250712	18	Segway	
+9.266874	19	Segway	
+9.283701	20	Segway	
+9.2998	21	Segway	
+9.316318	22	Segway	
+9.333188	23	Segway	
+9.350224	24	Segway	
+9.366312	25	Segway	
+9.382581	26	Segway	
+9.399363	27	Segway	
+9.416242	28	Segway	
+9.432382	29	Segway	
+9.449688	30	Segway	
+9.465646	31	Segway	
+9.482535	32	Segway	
+9.498974	33	Segway	
+9.515411	34	Segway	
+9.532211	35	Segway	
+9.549459	36	Segway	
+9.565481	37	Segway	
+9.581834	38	Segway	
+9.598535	39	Segway	
+9.614978	40	Segway	
+9.631558	41	Segway	
+9.648756	42	Segway	
+9.664656	43	Segway	
+9.681477	44	Segway	
+9.698056	45	Segway	
+9.714379	46	Segway	
+9.731154	47	Segway	
+9.748645	48	Segway	
+9.764113	49	Segway	
+9.780797	50	Segway	
+9.797525	51	Segway	
+9.814118	52	Segway	
+9.830404	53	Segway	
+9.84732	54	Segway	
+9.863452	55	Segway	
+9.880539	56	Segway	
+9.896664	57	Segway	
+9.913233	58	Segway	
+9.929729	59	Segway	
+10.87521	60	Segway	
+10.89147	61	Segway	
+10.90803	62	Segway	
+10.92451	63	Segway	
+10.94212	64	Segway	
+10.95765	65	Segway	
+10.97419	66	Segway	
+11.20666	66	Segway	Segway
+16.59629	66	Segway	Segway
+16.61188	66	Segway	Segway
+16.62864	66	Segway	Segway
+16.6448	66	Segway	Segway
+16.66147	66	Segway	Segway
+16.67828	66	Segway	Segway
+16.69494	66	Segway	Segway
+16.84416	66	Segway	Segway
+16.86061	66	Segway	Segway
+16.87742	66	Segway	Segway
+16.89431	66	Segway	Segway
+16.9103	66	Segway	Segway
+16.9765	66	Segway	Segway
+16.99318	66	Segway	Segway
+17.00969	66	Segway	Segway
+17.02668	66	Segway	Segway
+17.04342	66	Segway	Segway
+17.06012	66	Segway	Segway
+17.07636	66	Segway	Segway
+17.09347	66	Segway	Segway
+17.9715	66	Segway	Segway
+17.98803	66	Segway	
+18.25371	67	Segway	
+18.27072	67	Segway	Segway
+19.94451	67	Segway	Segway
+19.96082	67	Segway	
+20.17663	68	Segway	
+20.19322	69	Segway	
+20.20967	70	Segway	
+20.22593	71	Segway	
+20.24345	72	Segway	
+20.26011	73	Segway	
+20.2763	74	Segway	
+20.29251	75	Segway	
+20.30924	76	Segway	
+20.32572	77	Segway	
+20.34204	78	Segway	
+20.35894	79	Segway	
+20.54206	80	Segway	
+20.55776	80	Segway	Segway
+22.8295	80	Segway	Segway
+22.84522	80	Segway	
+23.17667	81	Segway	
+23.19328	82	Segway	
+23.37646	82	Segway	Segway
+24.07474	82	Segway	Segway
+24.08859	82	Segway	Segway
+24.1054	82	Segway	
+24.68509	83	Segway	
+24.70242	84	Segway	
+24.71859	85	Segway	
+24.73531	86	Segway	
+24.75177	87	Segway	
+24.76911	88	Segway	
+24.78491	89	Segway	
+24.80147	90	Segway	
+24.81875	91	Segway	
+24.83515	92	Segway	
+24.85106	93	Segway	
+24.86795	94	Segway	
+24.88403	95	Segway	
+24.90107	96	Segway	
+24.91717	97	Segway	
+24.93393	98	Segway	
+24.95026	99	Segway	
+24.96758	100	Segway	
+24.98337	101	Segway	
+25.00069	102	Segway	
+25.01693	103	Segway	
+25.03376	104	Segway	
+25.05033	105	Segway	
+25.06668	106	Segway	
+25.08302	107	Segway	
+25.10023	108	Segway	
+25.11619	109	Segway	
+25.13304	110	Segway	
+25.1494	111	Segway	
+25.16662	112	Segway	
+25.18262	113	Segway	
+25.19947	114	Segway	
+25.21587	115	Segway	
+25.23283	116	Segway	
+25.24895	117	Segway	
+25.266	118	Segway	
+25.2823	119	Segway	
+25.29891	120	Segway	
+25.31528	121	Segway	
+25.332	122	Segway	
+25.34858	123	Segway	
+25.36542	124	Segway	
+25.38155	125	Segway	
+25.39836	126	Segway	
+25.41469	127	Segway	
+25.4317	128	Segway	
+25.44785	129	Segway	
+25.46432	130	Segway	
+25.48098	131	Segway	
+25.49819	132	Segway	
+25.51449	133	Segway	
+25.53096	134	Segway	
+25.54746	135	Segway	
+25.56491	136	Segway	
+25.58058	137	Segway	
+25.59747	138	Segway	
+25.61362	139	Segway	
+25.63049	140	Segway	
+25.64732	141	Segway	
+25.66335	142	Segway	
+25.68051	143	Segway	
+25.69674	144	Segway	
+26.34298	145	Segway	
+26.35969	145	Segway	Segway
+32.75938	145	Segway	Segway
+32.77589	145	Segway	Segway
+32.7939	145	Segway	Segway
+32.80914	145	Segway	Segway
+32.82575	145	Segway	
+33.19056	146	Segway	
+33.20722	146	Segway	Segway
+35.7109	146	Segway	Segway
+35.72695	146	Segway	Segway
+35.74346	146	Segway	
+37.31881	147	Segway	
+37.33549	148	Segway	
+37.35166	149	Segway	
+37.36842	150	Segway	
+37.38474	151	Segway	
+37.40155	152	Segway	
+37.41804	153	Segway	
+37.43456	154	Segway	
+37.45098	155	Segway	
+37.4678	156	Segway	
+37.48445	157	Segway	
+37.50078	158	Segway	
+37.51751	159	Segway	
+37.53456	160	Segway	
+37.55068	161	Segway	
+37.56837	162	Segway	
+37.58413	163	Segway	
+37.60058	164	Segway	
+37.61709	165	Segway	
+37.63354	166	Segway	
+37.64999	167	Segway	
+37.66678	168	Segway	
+37.68338	169	Segway	
+37.69973	170	Segway	
+37.71653	171	Segway	
+37.84892	172	Segway	
+37.86598	173	Segway	
+37.8821	174	Segway	
+37.8988	175	Segway	
+37.91531	176	Segway	
+37.94896	176	Segway	Segway
+44.9782	176	Segway	Segway
+44.99496	176	Segway	Segway
+45.01136	176	Segway	Segway
+45.02943	176	Segway	Segway
+45.04472	176	Segway	
+45.50856	177	Segway	
+45.52575	177	Segway	Segway
+48.31116	177	Segway	
+48.69156	178	Segway	
+48.70846	179	Segway	
+48.72595	179	Segway	Segway
+51.46098	179	Segway	Segway
+51.47715	179	Segway	Segway
+51.49395	179	Segway	
+51.82533	180	Segway	
+51.84208	181	Segway	
+51.85887	181	Segway	Segway
+56.55113	181	Segway	
+56.7821	182	Segway	
+56.79936	182	Segway	Segway
+58.60562	182	Segway	Segway
+58.62211	182	Segway	
+58.95381	183	Segway	
+58.97071	183	Segway	Segway
+73.69279	183	Segway	Segway
+73.70885	183	Segway	Segway
+73.72536	183	Segway	Segway
+73.7422	183	Segway	Segway
+73.75868	183	Segway	Segway
+73.77592	183	Segway	Segway
+73.79145	183	Segway	Segway
+73.80909	183	Segway	Segway
+73.82466	183	Segway	Segway
+73.84161	183	Segway	Segway
+73.85969	183	Segway	Segway
+73.87459	183	Segway	Segway
+73.89083	183	Segway	
+74.04047	184	Segway	
+74.05747	185	Segway	
+74.07368	185	Segway	Segway
+0	0		
+0.6474012	0		
+0.663147	0		
+0.6800231	0		
+0.696511	0		
+0.7142407	0		
+0.729705	0		
+0.7468849	0		
+0.7629271	0		
+0.7792891	0		
+0.7962984	0		
+0.8126258	0		
+0.8292045	0		
+0.8461887	0		
+0.862588	0		
+0.8788701	0		
+0.8954299	0		
+0.9119972	0		
+0.9295006	0		
+0.9451392	0		
+0.9622762	0		
+0.9785174	0		
+0.9953822	0		
+1.011575	0		
+1.02807	0		
+1.045349	0		
+1.062853	0		
+1.077786	0		
+1.094377	0		
+1.111346	0		
+1.127836	0		
+1.14434	0		
+1.161337	0		
+1.177279	0		
+1.194246	0		
+1.210596	0		
+1.227257	0		
+1.243858	0		
+1.261002	0		
+1.276963	0		
+1.293312	0		
+1.309988	0		
+1.326782	0		
+2.802375	0		
+2.901808	1		
+2.918534	2		
+2.935547	3		
+2.95176	4		
+2.968471	5		
+2.984909	6		
+3.001658	7		
+3.018025	8		
+3.034951	9		
+3.051434	10		
+3.068423	11		
+3.084363	12		
+3.100827	13		
+3.117561	14		
+3.134622	15		
+3.150707	16		
+3.167206	17		
+3.1837	18		
+3.200606	19		
+3.216919	20		
+3.732385	20		
+3.880629	20		
+3.896701	20		
+0.08324431	1	Segway	
+0.1005385	1	Segway	Segway
+7.395009	1	Segway	
+7.62697	2	Segway	
+7.643063	3	Segway	
+7.659475	3	Segway	Segway
+10.74356	3	Segway	Segway
+10.7605	3	Segway	
+11.00932	4	Segway	
+11.02614	4	Segway	Segway
+18.13741	4	Segway	
+18.41931	5	Segway	
+18.43579	5	Segway	Segway
+0	0		
+0.01697274	0		
+0.03748902	0		
+0.04980195	0		
+0.06616617	0		
+0.08717348	0		
+0.09921826	0		
+0.1160425	0		
+0.1331975	0		
+0.1492381	0		
+0.1656888	0		
+0.1821554	0		
+0.1990082	0		
+0.2160751	0		
+0.232657	0		
+0.2484189	0		
+0.2650352	0		
+0.2819819	0		
+0.2984109	0		
+0.3157404	0		
+0.3315808	0		
+0.3481071	0		
+0.3645876	0		
+0.3809335	0		
+0.3984977	0		
+0.4144224	0		
+0.4306772	0		
+0.4475597	0		
+0.4639435	0		
+0.4807814	0		
+0.4979157	0		
+0.5139652	0		
+0.5303859	0		
+0.5470359	0		
+0.5640933	0		
+0.5801358	0		
+0.5968357	0		
+0.6137446	0		
+4.360814	1	Surfing	
+4.377323	2	Surfing	
+4.393661	3	Surfing	
+4.410755	4	Surfing	
+4.427272	5	Surfing	
+4.443639	5	Surfing	Surfing
+32.03043	5	Surfing	Surfing
+32.04674	5	Surfing	Surfing
+32.06374	5	Surfing	
+32.19585	6	Surfing	
+32.21254	7	Surfing	
+32.22945	8	Surfing	
+32.24565	9	Surfing	
+32.26215	10	Surfing	
+32.27971	11	Surfing	
+32.29598	12	Surfing	
+32.31202	13	Surfing	
+32.32883	14	Surfing	
+32.34524	15	Surfing	
+32.36211	16	Surfing	
+32.37826	17	Surfing	
+32.39489	18	Surfing	
+32.41129	19	Surfing	
+32.42826	20	Surfing	
+32.44474	21	Surfing	
+32.46113	22	Surfing	
+32.47802	23	Surfing	
+32.49485	24	Surfing	
+32.51095	25	Surfing	
+32.52748	26	Surfing	
+32.54584	27	Surfing	
+32.56086	28	Surfing	
+32.57735	29	Surfing	
+32.59395	30	Surfing	
+32.61053	31	Surfing	
+32.62704	32	Surfing	
+32.64363	33	Surfing	
+32.66003	34	Surfing	
+32.67706	35	Surfing	
+32.69411	36	Surfing	
+32.71003	37	Surfing	
+32.72657	38	Surfing	
+32.74316	39	Surfing	
+32.76006	40	Surfing	
+32.77632	41	Surfing	
+32.7931	42	Surfing	
+32.80954	43	Surfing	
+32.82634	44	Surfing	
+32.84231	45	Surfing	
+32.85895	46	Surfing	
+32.87569	47	Surfing	
+32.89264	48	Surfing	
+32.90886	49	Surfing	
+32.92545	50	Surfing	
+32.9421	51	Surfing	
+32.95923	52	Surfing	
+32.97532	53	Surfing	
+32.9916	54	Surfing	
+33.00837	55	Surfing	
+33.02525	56	Surfing	
+33.04168	57	Surfing	
+33.05814	58	Surfing	
+33.07478	59	Surfing	
+33.09149	60	Surfing	
+33.10816	61	Surfing	
+33.12436	62	Surfing	
+33.14096	63	Surfing	
+33.15904	64	Surfing	
+33.17413	65	Surfing	
+33.1907	66	Surfing	
+33.20713	67	Surfing	
+33.22416	68	Surfing	
+33.24035	69	Surfing	
+33.25845	70	Surfing	
+33.27362	71	Surfing	
+33.29066	72	Surfing	
+33.3071	73	Surfing	
+33.32588	74	Surfing	
+33.34001	75	Surfing	
+33.3568	76	Surfing	
+33.37299	77	Surfing	
+33.38976	78	Surfing	
+33.40636	79	Surfing	
+33.42311	80	Surfing	
+33.43983	81	Surfing	
+33.45594	82	Surfing	
+33.4729	83	Surfing	
+33.48948	84	Surfing	
+33.50577	85	Surfing	
+33.52246	86	Surfing	
+33.53901	87	Surfing	
+33.55644	88	Surfing	
+33.57202	89	Surfing	
+33.58872	90	Surfing	
+33.60542	91	Surfing	
+33.62196	92	Surfing	
+33.78809	93	Surfing	
+33.80435	94	Surfing	
+33.82077	95	Surfing	
+33.83776	96	Surfing	
+33.8537	97	Surfing	
+33.87044	98	Surfing	
+33.88745	99	Surfing	
+33.90419	100	Surfing	
+33.9203	101	Surfing	
+33.93665	102	Surfing	
+33.9533	103	Surfing	
+33.96994	104	Surfing	
+33.98716	105	Surfing	
+34.00318	106	Surfing	
+34.02019	107	Surfing	
+34.0363	108	Surfing	
+34.05288	109	Surfing	
+34.06952	110	Surfing	
+34.08629	111	Surfing	
+34.10314	112	Surfing	
+34.11906	113	Surfing	
+34.13557	114	Surfing	
+34.15205	115	Surfing	
+34.16973	116	Surfing	
+34.18531	117	Surfing	
+34.20194	118	Surfing	
+34.21854	119	Surfing	
+34.23509	120	Surfing	
+34.25177	121	Surfing	
+34.26835	122	Surfing	
+34.28499	123	Surfing	
+34.30146	124	Surfing	
+34.31855	125	Surfing	
+34.33469	126	Surfing	
+34.35091	127	Surfing	
+34.36817	128	Surfing	
+34.38448	129	Surfing	
+34.40087	130	Surfing	
+34.41732	131	Surfing	
+34.43404	132	Surfing	
+34.4509	133	Surfing	
+34.46726	134	Surfing	
+34.48377	135	Surfing	
+34.50041	136	Surfing	
+34.51728	137	Surfing	
+34.53352	138	Surfing	
+34.55002	139	Surfing	
+34.56676	140	Surfing	
+34.5839	141	Surfing	
+34.59999	142	Surfing	
+34.61637	143	Surfing	
+34.63324	144	Surfing	
+34.64981	145	Surfing	
+34.66645	146	Surfing	
+34.68281	147	Surfing	
+34.69999	148	Surfing	
+34.71597	149	Surfing	
+34.73243	150	Surfing	
+35.03117	151	Surfing	
+35.04804	152	Surfing	
+35.06432	152	Surfing	Surfing
+47.84618	152	Surfing	Surfing
+47.86309	152	Surfing	Surfing
+47.88023	152	Surfing	
+48.21115	153	Surfing	
+48.22772	154	Surfing	
+48.24404	154	Surfing	Surfing
+0	0		
+0.01759242	0		
+0.03379235	0		
+0.04990486	0		
+0.0667471	0		
+0.08326167	0		
+0.1014279	0		
+0.1164663	0		
+0.1332936	0		
+0.1495742	0		
+0.1660807	0		
+0.1828237	0		
+0.1993637	0		
+0.2157949	0		
+0.2323405	0		
+0.2491219	0		
+0.265448	0		
+0.282905	0		
+0.2992116	0		
+0.3155941	0		
+0.3319025	0		
+0.3486043	0		
+0.3655712	0		
+0.3820064	0		
+0.398892	0		
+0.4144977	0		
+0.4311831	0		
+0.448056	0		
+0.4644453	0		
+0.4814029	0		
+0.4980662	0		
+0.5154435	0		
+0.5306471	0		
+0.5473638	0		
+5.603763	1		
+5.620416	2		
+5.636955	3		
+5.653955	4		
+5.670115	5		
+5.686927	6		
+5.70331	7		
+5.719707	8		
+5.7365	9		
+5.753788	10		
+5.769719	11		
+5.786276	12		
+5.802626	12		
+6.731162	12		
+6.748658	12		
+6.764334	12		
+6.780976	12		
+8.671053	12		
+8.68772	12		
+8.70428	12		
+0.6628689	1	Surfing	
+0.6795263	1	Surfing	Surfing
+4.609306	1	Surfing	Surfing
+4.625305	1	Surfing	Surfing
+4.641828	1	Surfing	Surfing
+4.658702	1	Surfing	
+4.77448	2	Surfing	
+4.791249	3	Surfing	
+4.807656	3	Surfing	Surfing
+19.43008	3	Surfing	Surfing
+19.44649	3	Surfing	Surfing
+19.46355	3	Surfing	Surfing
+19.47967	3	Surfing	
+19.97758	4	Surfing	
+19.99343	5	Surfing	
+20.01005	6	Surfing	
+20.02667	6	Surfing	Surfing
+0	0		
+0.01602943	0		
+0.0339055	0		
+0.04970306	0		
+0.06635651	0		
+0.08279824	0		
+0.1014208	0		
+0.116111	0		
+0.1326302	0		
+0.1489824	0		
+0.1655081	0		
+0.1831821	0		
+0.1988556	0		
+0.2153265	0		
+0.2320426	0		
+0.2508415	0		
+0.2651396	0		
+0.2819375	0		
+0.2986467	0		
+0.3147146	0		
+0.332307	0		
+0.3479908	0		
+0.3648123	0		
+0.3815686	0		
+0.3986502	0		
+0.4142407	0		
+0.4308535	0		
+0.4474676	0		
+0.464307	0		
+0.480608	0		
+0.4979075	0		
+0.5142581	0		
+0.5313753	0		
+0.5474364	0		
+0.5636952	0		
+0.5803676	0		
+0.5972966	0		
+0.6134664	0		
+3.714256	0	Walking	Walking
+4.012662	0	Walking	
+4.07909	0	Walking	Walking
+4.144773	0	Walking	
+4.211256	0	Walking	Walking
+4.476593	0	Walking	
+4.559101	0	Walking	Walking
+4.890908	0	Walking	
+4.90799	0	Walking	Walking
+5.68673	0	Walking	Walking
+5.7044	0	Walking	Walking
+5.720317	0	Walking	Walking
+5.737913	0	Walking	Walking
+5.752991	0	Walking	Walking
+5.769795	0	Walking	Walking
+5.786405	0	Walking	Walking
+5.803433	0	Walking	Walking
+5.819324	0	Walking	Walking
+5.836318	0	Walking	Walking
+5.852677	0	Walking	Walking
+5.869238	0	Walking	Walking
+5.88621	0	Walking	Walking
+5.902981	0	Walking	Walking
+5.919253	0	Walking	Walking
+5.935412	0	Walking	Walking
+5.952274	0	Walking	Walking
+5.968854	0	Walking	Walking
+5.985693	0	Walking	Walking
+6.001741	0	Walking	Walking
+6.018473	0	Walking	Walking
+6.035202	0	Walking	Walking
+6.052027	0	Walking	Walking
+6.068003	0	Walking	Walking
+6.084579	0	Walking	Walking
+6.101035	0	Walking	Walking
+6.117956	0	Walking	Walking
+6.134414	0	Walking	Walking
+6.150819	0	Walking	Walking
+6.16747	0	Walking	Walking
+6.184427	0	Walking	Walking
+6.201163	0	Walking	Walking
+6.21846	0	Walking	Walking
+6.233982	0	Walking	Walking
+6.250645	0	Walking	Walking
+6.267285	0	Walking	Walking
+6.283434	0	Walking	Walking
+6.300917	0	Walking	Walking
+6.31718	0	Walking	Walking
+6.333693	0	Walking	Walking
+6.34994	0	Walking	Walking
+6.367232	0	Walking	Walking
+6.383757	0	Walking	Walking
+6.400534	0	Walking	Walking
+6.499539	0	Walking	
+6.913844	0	Walking	Walking
+8.157648	0	Walking	
+8.654844	0	Walking	Walking
+9.151527	0	Walking	
+9.599216	0	Walking	Walking
+10.01371	0	Walking	
+10.04778	0	Walking	Walking
+10.14625	0	Walking	
+10.19799	0	Walking	Walking
+10.26225	0	Walking	
+10.32957	0	Walking	Walking
+10.41187	0	Walking	
+10.4616	0	Walking	Walking
+10.54412	0	Walking	
+10.61037	0	Walking	Walking
+10.71166	0	Walking	
+10.74337	0	Walking	Walking
+10.82592	0	Walking	
+10.87571	0	Walking	Walking
+11.17418	0	Walking	
+11.22391	0	Walking	Walking
+11.40699	0	Walking	Walking
+11.48965	0	Walking	
+11.9036	0	Walking	Walking
+12.96522	0	Walking	
+13.46177	0	Walking	Walking
+13.62772	0	Walking	
+13.67743	0	Walking	Walking
+13.76014	0	Walking	
+13.8264	0	Walking	Walking
+13.90951	0	Walking	
+13.95907	0	Walking	Walking
+14.04218	0	Walking	
+14.09176	0	Walking	Walking
+14.2079	0	Walking	
+14.24136	0	Walking	Walking
+14.34046	0	Walking	
+14.37432	0	Walking	Walking
+14.65534	0	Walking	
+14.68856	0	Walking	Walking
+14.83801	0	Walking	
+15.63378	0	Walking	Walking
+16.86053	0	Walking	
+17.15929	0	Walking	Walking
+17.2584	0	Walking	
+17.27551	0	Walking	Walking
+17.35794	0	Walking	
+17.40782	0	Walking	Walking
+17.64038	0	Walking	
+17.70645	0	Walking	Walking
+17.78895	0	Walking	
+18.08725	0	Walking	Walking
+19.94454	0	Walking	
+20.42517	0	Walking	Walking
+20.62424	0	Walking	
+20.69131	0	Walking	Walking
+20.78979	0	Walking	
+20.80708	0	Walking	Walking
+20.92352	0	Walking	
+20.97252	0	Walking	Walking
+21.12154	0	Walking	Walking
+21.28735	0	Walking	
+21.30389	0	Walking	Walking
+0	0		
+0.01618753	0		
+0.03360295	0		
+0.04932424	0		
+0.06677128	0		
+0.0824312	0		
+0.2658278	0	Walking	Walking
+0.3154084	0	Walking	
+0.3318678	0	Walking	Walking
+0.4481156	0	Walking	
+0.4821388	0	Walking	Walking
+0.5642111	0	Walking	
+0.5970648	0	Walking	Walking
+0.7144285	0	Walking	
+0.7298321	0	Walking	Walking
+0.8298479	0	Walking	
+0.8954961	0	Walking	Walking
+0.9782531	0	Walking	
+1.011948	0	Walking	Walking
+1.127603	0	Walking	
+1.160619	0	Walking	Walking
+1.492323	0	Walking	
+1.558875	0	Walking	Walking
+1.757491	0	Walking	
+2.17204	0	Walking	Walking
+4.907585	0	Walking	
+6.051415	0	Walking	Walking
+6.266926	0	Walking	
+6.350346	0	Walking	Walking
+7.212371	0	Walking	
+7.593279	0	Walking	Walking
+7.67662	0	Walking	
+7.709975	0	Walking	Walking
+7.825774	0	Walking	
+7.875351	0	Walking	Walking
+7.9579	0	Walking	
+8.008361	0	Walking	Walking
+8.106896	0	Walking	
+8.141046	0	Walking	Walking
+8.223856	0	Walking	
+8.256699	0	Walking	Walking
+8.389614	0	Walking	
+8.439585	0	Walking	Walking
+8.538227	0	Walking	
+8.588253	0	Walking	Walking
+8.720524	0	Walking	
+8.771174	0	Walking	Walking
+8.869833	0	Walking	
+8.919577	0	Walking	Walking
+9.102324	0	Walking	
+9.13481	0	Walking	Walking
+9.715433	0	Walking	Walking
+9.732183	0	Walking	Walking
+10.11352	0	Walking	
+10.59417	0	Walking	Walking
+11.70468	0	Walking	
+12.46731	0	Walking	Walking
+12.79906	0	Walking	
+13.54461	0	Walking	Walking
+13.84307	0	Walking	
+14.29082	0	Walking	Walking
+14.40687	0	Walking	
+14.43995	0	Walking	Walking
+14.53955	0	Walking	
+14.57269	0	Walking	Walking
+14.65612	0	Walking	
+14.68897	0	Walking	Walking
+14.7883	0	Walking	
+14.85458	0	Walking	Walking
+15.08657	0	Walking	
+15.13651	0	Walking	Walking
+15.26897	0	Walking	
+15.31882	0	Walking	Walking
+15.40173	0	Walking	
+15.45184	0	Walking	Walking
+15.78306	0	Walking	
+16.16394	0	Walking	Walking
+16.56249	0	Walking	
+16.77745	0	Walking	Walking
+16.9103	0	Walking	
+16.94334	0	Walking	Walking
+17.00951	0	Walking	
+17.05934	0	Walking	Walking
+17.15904	0	Walking	
+17.20833	0	Walking	Walking
+17.30772	0	Walking	
+17.34122	0	Walking	Walking
+17.47378	0	Walking	
+17.50682	0	Walking	Walking
+17.59012	0	Walking	
+17.63939	0	Walking	Walking
+17.88939	0	Walking	
+18.38567	0	Walking	Walking
+20.2435	0	Walking	
+20.60804	0	Walking	Walking
+20.74015	0	Walking	
+20.80762	0	Walking	Walking
+20.90606	0	Walking	
+20.94003	0	Walking	Walking
+21.00552	0	Walking	
+21.07183	0	Walking	Walking
+21.22126	0	Walking	
+21.23816	0	Walking	Walking
+21.33728	0	Walking	
+21.38716	0	Walking	Walking
+21.61908	0	Walking	Walking
+21.75202	0	Walking	
+22.21682	0	Walking	Walking
+23.90699	0	Walking	
+24.25503	0	Walking	Walking
+24.33766	0	Walking	
+24.3873	0	Walking	Walking
+24.47031	0	Walking	
+24.50414	0	Walking	Walking
+24.58641	0	Walking	
+24.63617	0	Walking	Walking
+24.75211	0	Walking	
+24.78579	0	Walking	Walking
+24.86815	0	Walking	
+24.91797	0	Walking	Walking
+25.1832	0	Walking	
+25.20068	0	Walking	Walking
+25.43236	0	Walking	
+25.87929	0	Walking	Walking
+27.27243	0	Walking	
+27.63632	0	Walking	Walking
+27.80283	0	Walking	
+27.86882	0	Walking	Walking
+27.96812	0	Walking	
+28.00155	0	Walking	Walking
+28.08422	0	Walking	
+28.11736	0	Walking	Walking
+28.26661	0	Walking	Walking
+28.36601	0	Walking	
+28.96282	0	Walking	Walking
+29.61002	0	Walking	
+29.9573	0	Walking	Walking
+30.04057	0	Walking	
+30.057	0	Walking	Walking
+30.13995	0	Walking	
+30.20654	0	Walking	Walking
+30.28915	0	Walking	
+30.35567	0	Walking	Walking
+30.43817	0	Walking	
+30.5046	0	Walking	Walking
+30.75338	0	Walking	
+30.80412	0	Walking	Walking
+30.96878	0	Walking	
+31.13477	0	Walking	Walking
+31.54904	0	Walking	
+31.68205	0	Walking	Walking
+32.24553	0	Walking	
+32.77581	0	Walking	Walking
+33.00821	0	Walking	
+33.30679	0	Walking	Walking
+33.40589	0	Walking	
+33.45552	0	Walking	Walking
+33.52322	0	Walking	
+33.57206	0	Walking	Walking
+33.65463	0	Walking	
+33.68782	0	Walking	Walking
+33.77047	0	Walking	
+33.80367	0	Walking	Walking
+33.92004	0	Walking	
+33.93642	0	Walking	Walking
+34.15258	0	Walking	
+34.16852	0	Walking	Walking
+34.26794	0	Walking	
+34.28486	0	Walking	Walking
+34.46674	0	Walking	
+34.49983	0	Walking	Walking
+34.58294	0	Walking	
+34.63273	0	Walking	Walking
+0	0		
+0.01643925	0		
+0.03375143	0		
+0.09976663	1		
+0.1177323	2		
+0.1330215	3		
+0.1494241	4		
+0.1658801	5		
+0.1831548	6		
+0.266192	7		
+0.2820724	8		
+0.2985879	9		
+0.3151719	10		
+0.3321043	11		
+0.3488381	12		
+0.6633998	13		
+0.680184	14		
+0.6964093	15		
+0.7129574	16		
+0.7295833	17		
+0.7463257	18		
+0.7629714	19		
+0.7792085	20		
+0.7961828	21		
+0.8146169	22		
+0.8291785	23		
+0.845804	24		
+0.8631729	25		
+0.8788027	26		
+0.8959664	27		
+0.7131026	0	Walking	Walking
+0.8788047	0	Walking	
+0.9121349	0	Walking	Walking
+0.9950453	0	Walking	
+1.04509	0	Walking	Walking
+1.160483	0	Walking	
+1.210451	0	Walking	Walking
+1.293814	0	Walking	
+1.360162	0	Walking	Walking
+1.492638	0	Walking	
+1.525948	0	Walking	Walking
+1.657953	0	Walking	
+1.691273	0	Walking	Walking
+2.138736	0	Walking	
+2.188698	0	Walking	Walking
+2.288422	0	Walking	
+2.752778	0	Walking	Walking
+3.996271	0	Walking	
+4.658409	0	Walking	Walking
+4.874586	0	Walking	
+5.25558	0	Walking	Walking
+5.321845	0	Walking	
+5.371544	0	Walking	Walking
+5.438099	0	Walking	
+5.50397	0	Walking	Walking
+5.588053	0	Walking	
+5.636712	0	Walking	Walking
+5.736309	0	Walking	
+5.770574	0	Walking	Walking
+5.885341	0	Walking	
+5.935112	0	Walking	Walking
+6.034673	0	Walking	
+6.084851	0	Walking	Walking
+6.432733	0	Walking	
+6.465887	0	Walking	Walking
+6.648148	0	Walking	Walking
+6.747797	0	Walking	
+7.229142	0	Walking	Walking
+7.792284	0	Walking	
+8.703425	0	Walking	Walking
+8.969027	0	Walking	
+9.317049	0	Walking	Walking
+9.383181	0	Walking	
+9.433666	0	Walking	Walking
+9.499558	0	Walking	
+9.549413	0	Walking	Walking
+9.682887	0	Walking	
+9.698354	0	Walking	Walking
+10.14631	0	Walking	
+10.19549	0	Walking	Walking
+10.29523	0	Walking	
+10.87569	0	Walking	Walking
+12.16917	0	Walking	
+12.79854	0	Walking	Walking
+13.1142	0	Walking	
+13.5113	0	Walking	Walking
+13.57798	0	Walking	
+13.61081	0	Walking	Walking
+13.67821	0	Walking	
+13.74354	0	Walking	Walking
+13.84304	0	Walking	
+13.89317	0	Walking	Walking
+13.95946	0	Walking	
+14.02577	0	Walking	Walking
+14.1417	0	Walking	
+14.15823	0	Walking	Walking
+14.29095	0	Walking	
+14.30737	0	Walking	Walking
+14.43995	0	Walking	
+14.45638	0	Walking	Walking
+14.55618	0	Walking	
+14.58911	0	Walking	Walking
+14.82133	0	Walking	
+14.85484	0	Walking	Walking
+15.01991	0	Walking	
+15.0533	0	Walking	Walking
+15.13599	0	Walking	
+15.20239	0	Walking	Walking
+15.30198	0	Walking	
+15.76653	0	Walking	Walking
+17.57414	0	Walking	
+17.80546	0	Walking	Walking
+17.87218	0	Walking	
+17.90499	0	Walking	Walking
+18.03792	0	Walking	
+18.07086	0	Walking	Walking
+18.13741	0	Walking	
+18.21969	0	Walking	Walking
+18.35256	0	Walking	
+18.40223	0	Walking	Walking
+18.46859	0	Walking	
+18.51847	0	Walking	Walking
+18.68407	0	Walking	
+18.98254	0	Walking	Walking
+19.14828	0	Walking	
+19.66225	0	Walking	Walking
+21.73447	0	Walking	
+22.26498	0	Walking	Walking
+22.34789	0	Walking	
+22.38137	0	Walking	Walking
+22.46418	0	Walking	
+22.51381	0	Walking	Walking
+22.67938	0	Walking	Walking
+22.77965	0	Walking	
+22.81196	0	Walking	Walking
+22.87832	0	Walking	
+23.14355	0	Walking	Walking
+23.74056	0	Walking	
+23.90627	0	Walking	Walking
+24.53688	0	Walking	
+24.83554	0	Walking	Walking
+24.90141	0	Walking	
+24.91788	0	Walking	Walking
+25.05098	0	Walking	
+25.11704	0	Walking	Walking
+25.18364	0	Walking	
+25.26605	0	Walking	Walking
+25.36563	0	Walking	
+25.41525	0	Walking	Walking
+25.4817	0	Walking	
+25.53234	0	Walking	Walking
+25.64789	0	Walking	
+25.68037	0	Walking	Walking
+25.78088	0	Walking	
+25.81301	0	Walking	Walking
+25.92922	0	Walking	
+26.42624	0	Walking	Walking
+28.03512	0	Walking	
+28.33273	0	Walking	Walking
+28.38241	0	Walking	
+28.39886	0	Walking	Walking
+28.49879	0	Walking	
+28.54809	0	Walking	Walking
+28.63134	0	Walking	
+28.69782	0	Walking	Walking
+28.79699	0	Walking	
+28.83017	0	Walking	Walking
+28.91381	0	Walking	
+28.96304	0	Walking	Walking
+29.16239	0	Walking	
+29.89132	0	Walking	Walking
+31.36688	0	Walking	
+31.69838	0	Walking	Walking
+31.78127	0	Walking	
+31.7982	0	Walking	Walking
+31.89765	0	Walking	
+31.98024	0	Walking	Walking
+32.0634	0	Walking	
+32.12982	0	Walking	Walking
+32.22879	0	Walking	
+32.26321	0	Walking	Walking
+32.36138	0	Walking	
+32.41183	0	Walking	Walking
+0	0		
+0.01629076	0		
+0.03453013	0		
+0.0508336	0		
+0.06654467	1		
+0.08309149	2		
+0.09962621	3		
+0.1163652	4		
+0.1329719	5		
+0.1491898	6		
+0.1661799	7		
+0.1824198	8		
+0.1989868	9		
+0.2154846	10		
+0.2320556	11		
+0.2491222	12		
+0.2654285	13		
+1.790061	1	Surfing	
+1.806902	2	Surfing	
+1.823175	3	Surfing	
+1.840001	3	Surfing	Surfing
+22.01615	3	Surfing	Surfing
+22.03278	3	Surfing	Surfing
+22.04917	3	Surfing	Surfing
+22.06574	3	Surfing	Surfing
+22.08272	3	Surfing	Surfing
+22.10021	3	Surfing	
+22.33092	4	Surfing	
+22.34787	5	Surfing	
+22.36417	5	Surfing	Surfing
+23.12695	5	Surfing	Surfing
+23.14338	5	Surfing	
+23.42515	6	Surfing	
+23.44256	7	Surfing	
+23.45854	8	Surfing	
+23.47532	9	Surfing	
+23.49171	9	Surfing	Surfing
+25.61381	9	Surfing	Surfing
+25.62999	9	Surfing	Surfing
+25.64695	9	Surfing	
+25.97835	10	Surfing	
+25.99458	10	Surfing	Surfing
+28.13367	10	Surfing	Surfing
+28.15033	10	Surfing	Surfing
+28.16656	10	Surfing	Surfing
+28.18302	10	Surfing	Surfing
+28.19961	10	Surfing	
+28.53137	11	Surfing	
+28.54807	12	Surfing	
+28.56472	12	Surfing	Surfing
+0	0		
+0.1990593	0		
+0.2151253	0		
+0.2316501	0		
+0.2484049	0		
+0.2657146	0		
+0.281537	0		
+0.2979923	0		
+0.3146179	0		
+0.3315407	0		
+0.347873	0		
+0.3641319	0		
+0.3817987	0		
+0.3984121	0		
+0.4140907	0		
+0.4308036	0		
+0.4473907	0		
+0.4643077	0		
+4.294552	1		
+4.311526	2		
+4.327772	3		
+4.344437	4		
+4.410406	5		
+4.427147	6		
+4.443522	7		
+4.46047	8		
+4.477408	9		
+4.576577	10		
+4.593227	11		
+4.609472	12		
+4.626074	13		
+4.64257	14		
+4.709389	15		
+4.725662	16		
+4.742656	17		
+4.758745	18		
+4.775207	19		
+4.792104	20		
+5.339257	21		
+5.355855	22		
+5.372089	23		
+5.389979	24		
+5.405086	25		
+5.421516	26		
+5.471577	27		
+5.488106	28		
+5.504489	29		
+5.520921	30		
+5.58762	31		
+5.604645	32		
+5.620642	33		
+5.637325	34		
+5.653467	35		
+5.670355	36		
+5.719946	37		
+5.736661	38		
+5.753434	39		
+5.770264	40		
+5.786129	41		
+5.853157	42		
+5.869184	43		
+5.886191	44		
+5.902595	45		
+5.918872	46		
+5.935302	47		
+6.001741	48		
+6.018508	49		
+6.035175	50		
+6.051442	51		
+6.068066	52		
+6.167799	53		
+6.184279	54		
+6.201158	55		
+6.21712	56		
+6.23433	57		
+6.316633	58		
+6.333076	59		
+6.349667	60		
+6.36699	61		
+6.383331	62		
+6.499238	63		
+6.515687	64		
+0.01667081	1	Segway	
+0.03276937	2	Segway	
+0.04989711	3	Segway	
+0.06612277	4	Segway	
+0.08258495	5	Segway	
+0.09925359	6	Segway	
+0.1820673	7	Segway	
+0.1986482	8	Segway	
+0.215488	9	Segway	
+0.2324003	10	Segway	
+0.2488029	11	Segway	
+2.171794	12	Segway	
+2.188562	12	Segway	Segway
+5.007461	12	Segway	Segway
+5.023071	12	Segway	Segway
+5.039903	12	Segway	
+5.304926	13	Segway	
+5.321583	13	Segway	Segway
+12.69942	13	Segway	Segway
+12.71538	13	Segway	
+12.98115	14	Segway	
+12.99729	14	Segway	Segway
+0	0		
+0.01683511	0		
+0.03321917	0		
+0.04968291	0		
+0.06613858	0		
+0.08298609	0		
+0.09944734	0		
+0.1160664	0		
+0.1327294	0		
+0.1497177	0		
+0.1656644	0		
+0.182258	0		
+0.1988869	0		
+0.2155512	0		
+0.23209	0		
+0.2484803	0		
+0.2650664	0		
+0.2826059	0		
+0.2983919	0		
+0.31474	0		
+0.3314859	0		
+0.3482066	0		
+0.3645172	0		
+0.3811713	0		
+0.3988858	0		
+0.4147172	0		
+0.4315408	0		
+0.447445	0		
+0.4641809	0		
+0.4807417	0		
+0.4973406	0		
+0.5138889	0		
+0.5305104	0		
+0.5469841	0		
+0.5636843	0		
+0.5802913	0		
+0.5970805	0		
+0.6136713	0		
+0.6299311	0		
+0.6473118	0		
+0.6633561	0		
+0.6798974	0		
+0.6962052	0		
+0.7127926	0		
+0.7292111	0		
+0.7461048	0		
+0.7623704	0		
+0.7797412	0		
+0.7955911	0		
+0.8126119	0		
+6.151402	1		
+6.167523	2		
+6.184517	3		
+6.200527	4		
+6.217753	5		
+6.233624	6		
+6.250186	7		
+6.266782	8		
+6.283674	9		
+6.299993	10		
+6.316974	11		
+6.333219	12		
+6.349847	13		
+6.366232	14		
+6.383692	15		
+6.399638	16		
+6.416645	17		
+6.433105	18		
+6.449454	19		
+6.465601	20		
+6.483197	21		
+6.499237	22		
+6.516252	23		
+0.01598759	1	Surfing	
+0.03294421	2	Surfing	
+0.04900464	3	Surfing	
+0.0658103	4	Surfing	
+0.08221824	5	Surfing	
+0.09940147	6	Surfing	
+0.3648011	7	Surfing	
+0.3812729	8	Surfing	
+0.3984717	9	Surfing	
+0.4140494	10	Surfing	
+0.4311332	11	Surfing	
+0.4471803	12	Surfing	
+0.4635501	13	Surfing	
+0.4809996	14	Surfing	
+0.4970634	15	Surfing	
+0.5137032	16	Surfing	
+0.5302786	17	Surfing	
+0.5474646	18	Surfing	
+0.563247	19	Surfing	
+0.5801283	20	Surfing	
+0.5964361	21	Surfing	
+0.6127727	22	Surfing	
+0.6291651	23	Surfing	
+0.646401	24	Surfing	
+0.6630052	25	Surfing	
+0.6794535	26	Surfing	
+0.6956026	27	Surfing	
+0.7128422	28	Surfing	
+0.7288339	29	Surfing	
+0.7466842	30	Surfing	
+0.762231	31	Surfing	
+0.779294	32	Surfing	
+0.7955543	33	Surfing	
+0.8120962	34	Surfing	
+0.8283364	35	Surfing	
+0.8449458	36	Surfing	
+0.8616629	37	Surfing	
+0.8783578	38	Surfing	
+0.8958755	39	Surfing	
+0.9115435	40	Surfing	
+0.9282835	41	Surfing	
+0.9448278	42	Surfing	
+0.9609065	43	Surfing	
+0.9776393	44	Surfing	
+0.994741	44	Surfing	Surfing
+5.653087	44	Surfing	Surfing
+5.67065	44	Surfing	
+5.902152	45	Surfing	
+5.918527	46	Surfing	
+5.935654	47	Surfing	
+5.951336	48	Surfing	
+5.969046	49	Surfing	
+5.984396	50	Surfing	
+6.001519	51	Surfing	
+6.017578	51	Surfing	Surfing
+6.631086	51	Surfing	Surfing
+6.647936	51	Surfing	
+7.443739	52	Surfing	
+7.824778	53	Surfing	
+7.842297	53	Surfing	Surfing
+22.03391	53	Surfing	Surfing
+22.04927	53	Surfing	Surfing
+22.06621	53	Surfing	Surfing
+22.08247	53	Surfing	Surfing
+22.09932	53	Surfing	Surfing
+22.11531	53	Surfing	Surfing
+22.13285	53	Surfing	Surfing
+22.14855	53	Surfing	Surfing
+22.16613	53	Surfing	Surfing
+22.18178	53	Surfing	Surfing
+22.199	53	Surfing	Surfing
+22.21591	53	Surfing	Surfing
+22.23137	53	Surfing	Surfing
+22.24817	53	Surfing	Surfing
+22.26503	53	Surfing	Surfing
+22.28178	53	Surfing	Surfing
+22.29781	53	Surfing	Surfing
+22.31428	53	Surfing	Surfing
+22.33138	53	Surfing	Surfing
+22.34736	53	Surfing	Surfing
+22.36439	53	Surfing	Surfing
+22.3808	53	Surfing	Surfing
+22.39811	53	Surfing	Surfing
+22.41387	53	Surfing	Surfing
+22.43036	53	Surfing	Surfing
+22.44665	53	Surfing	Surfing
+22.46401	53	Surfing	Surfing
+22.47999	53	Surfing	Surfing
+22.49697	53	Surfing	Surfing
+22.51418	53	Surfing	Surfing
+22.53143	53	Surfing	Surfing
+22.54694	53	Surfing	Surfing
+22.56266	53	Surfing	Surfing
+22.57935	53	Surfing	Surfing
+22.59669	53	Surfing	Surfing
+22.6127	53	Surfing	Surfing
+22.62951	53	Surfing	Surfing
+22.6462	53	Surfing	Surfing
+22.66276	53	Surfing	Surfing
+22.67951	53	Surfing	Surfing
+22.6954	53	Surfing	Surfing
+22.71236	53	Surfing	Surfing
+22.729	53	Surfing	Surfing
+22.74587	53	Surfing	Surfing
+22.76187	53	Surfing	Surfing
+22.77845	53	Surfing	Surfing
+22.79546	53	Surfing	Surfing
+22.81156	53	Surfing	Surfing
+22.8283	53	Surfing	Surfing
+22.84671	53	Surfing	Surfing
+22.86191	53	Surfing	Surfing
+22.87814	53	Surfing	Surfing
+22.89458	53	Surfing	Surfing
+22.91126	53	Surfing	Surfing
+22.92798	53	Surfing	Surfing
+22.94425	53	Surfing	Surfing
+22.96111	53	Surfing	Surfing
+22.97786	53	Surfing	Surfing
+22.99447	53	Surfing	Surfing
+23.01112	53	Surfing	Surfing
+23.02698	53	Surfing	
+23.27616	54	Surfing	
+23.29235	54	Surfing	Surfing
+0	0		
+0.01664849	0		
+0.03434786	0		
+0.05026755	0		
+0.06833488	0		
+0.08366838	0		
+0.1006076	0		
+0.1166997	0		
+0.1331538	0		
+0.1498832	0		
+0.1665658	0		
+0.1830596	0		
+0.1994818	0		
+0.216196	0		
+0.2327788	0		
+0.2494118	0		
+0.2662866	0		
+0.2830727	0		
+0.2991706	0		
+0.3154952	0		
+0.332109	0		
+0.3493675	0		
+0.3654797	0		
+0.3820244	0		
+0.3994553	0		
+0.4149618	0		
+0.4316974	0		
+0.4483545	0		
+0.4647808	0		
+0.4812104	0		
+0.49881	0		
+4.128529	1		
+4.145004	2		
+4.161364	3		
+4.178771	4		
+4.19461	5		
+4.211316	6		
+4.227672	7		
+4.244357	8		
+4.261029	9		
+4.27824	10		
+4.2946	11		
+4.310694	12		
+4.327147	13		
+4.344347	14		
+4.360425	15		
+4.377013	16		
+4.393672	17		
+4.410304	18		
+4.426697	19		
+4.443232	20		
+5.023657	21		
+5.04019	22		
+5.056644	23		
+5.073481	24		
+5.156321	25		
+5.172774	26		
+5.189269	27		
+5.206432	28		
+5.305269	29		
+5.322123	30		
+5.338469	31		
+5.355679	32		
+5.371665	33		
+5.454594	34		
+5.47111	35		
+5.488087	36		
+5.504338	37		
+5.521087	38		
+5.537447	39		
+5.554565	40		
+8.30646	41		
+8.323338	42		
+8.339903	43		
+8.356037	44		
+8.372736	45		
+8.389344	46		
+8.406342	47		
+8.422642	48		
+8.439096	49		
+8.45609	50		
+8.472299	51		
+8.488849	52		
+8.505296	53		
+8.522324	54		
+8.538672	55		
+8.555154	56		
+8.571993	57		
+8.589097	58		
+8.605169	59		
+8.621585	60		
+8.638685	61		
+8.654928	62		
+8.671589	63		
+8.687912	64		
+8.704613	65		
+8.720945	66		
+0.01693399	0	Segway	Segway
+3.498703	0	Segway	
+3.730703	1	Segway	
+3.747102	1	Segway	Segway
+52.88726	1	Segway	Segway
+52.90321	1	Segway	Segway
+52.91982	1	Segway	
+53.05273	2	Segway	
+53.06931	3	Segway	
+53.08543	4	Segway	
+53.10194	5	Segway	
+53.11834	6	Segway	
+53.1351	7	Segway	
+53.15176	8	Segway	
+53.16833	9	Segway	
+53.18473	10	Segway	
+53.20193	11	Segway	
+53.21799	12	Segway	
+53.2352	13	Segway	
+53.25093	14	Segway	
+53.26759	15	Segway	
+53.28393	16	Segway	
+53.30093	17	Segway	
+53.31716	18	Segway	
+53.3337	19	Segway	
+53.35031	20	Segway	
+53.36762	21	Segway	
+53.38422	22	Segway	
+53.40059	23	Segway	
+53.41779	24	Segway	
+53.43372	25	Segway	
+53.44974	26	Segway	
+53.46696	27	Segway	
+53.48294	28	Segway	
+53.49991	29	Segway	
+53.51611	30	Segway	
+53.53392	31	Segway	
+53.54984	32	Segway	
+53.56645	33	Segway	
+53.5828	34	Segway	
+53.59959	35	Segway	
+53.61571	36	Segway	
+53.63261	37	Segway	
+53.64931	38	Segway	
+53.66552	39	Segway	
+53.68198	40	Segway	
+53.69948	41	Segway	
+53.71603	42	Segway	
+53.73203	43	Segway	
+53.74838	44	Segway	
+53.76482	45	Segway	
+53.78165	46	Segway	
+53.79811	47	Segway	
+53.81453	48	Segway	
+53.83115	49	Segway	
+53.84809	50	Segway	
+53.86619	51	Segway	
+54.16283	52	Segway	
+54.17944	52	Segway	Segway
+57.57818	52	Segway	
+57.82698	53	Segway	
+57.8434	53	Segway	Segway
+70.65874	53	Segway	
+70.9902	54	Segway	
+71.00758	55	Segway	
+71.02364	56	Segway	
+71.04058	57	Segway	
+71.22239	57	Segway	Segway
+73.49344	57	Segway	
+73.72611	58	Segway	
+73.74218	59	Segway	
+75.16795	60	Segway	
+75.18475	61	Segway	
+75.20137	62	Segway	
+75.21753	63	Segway	
+75.23436	64	Segway	
+75.251	65	Segway	
+75.2682	66	Segway	
+75.28391	67	Segway	
+75.30056	68	Segway	
+75.31707	69	Segway	
+75.3347	70	Segway	
+75.35034	71	Segway	
+75.36691	72	Segway	
+75.38465	73	Segway	
+75.40083	74	Segway	
+75.4173	75	Segway	
+75.43324	76	Segway	
+75.45009	77	Segway	
+75.467	78	Segway	
+75.48353	79	Segway	
+75.49973	80	Segway	
+75.51615	81	Segway	
+75.53266	82	Segway	
+75.54972	83	Segway	
+75.56645	84	Segway	
+75.58252	85	Segway	
+75.60011	86	Segway	
+75.61623	87	Segway	
+75.63251	88	Segway	
+75.64854	89	Segway	
+75.66571	90	Segway	
+75.68238	91	Segway	
+75.6986	92	Segway	
+75.71505	93	Segway	
+75.73177	94	Segway	
+75.7487	95	Segway	
+75.76481	96	Segway	
+75.78127	97	Segway	
+75.79783	98	Segway	
+76.06364	99	Segway	
+76.07986	99	Segway	Segway
+77.93707	99	Segway	
+78.1522	100	Segway	
+78.16856	100	Segway	Segway
+79.79395	100	Segway	Segway
+79.81007	100	Segway	Segway
+79.82652	100	Segway	Segway
+79.84302	100	Segway	Segway
+79.86	100	Segway	Segway
+79.87628	100	Segway	Segway
+79.89312	100	Segway	Segway
+79.90952	100	Segway	Segway
+79.92654	100	Segway	Segway
+79.94263	100	Segway	Segway
+79.95909	100	Segway	Segway
+79.97565	100	Segway	Segway
+79.99239	100	Segway	
+80.1917	101	Segway	
+80.20782	102	Segway	
+80.2246	103	Segway	
+80.24109	104	Segway	
+80.25819	105	Segway	
+80.27424	106	Segway	
+80.2913	107	Segway	
+80.30742	108	Segway	
+80.32537	109	Segway	
+80.34041	110	Segway	
+80.35722	111	Segway	
+80.37372	112	Segway	
+80.39075	113	Segway	
+80.40721	114	Segway	
+80.42387	115	Segway	
+80.44002	116	Segway	
+80.45739	117	Segway	
+80.47308	118	Segway	
+80.48996	119	Segway	
+80.50668	120	Segway	
+80.52315	121	Segway	
+80.54039	122	Segway	
+80.55652	123	Segway	
+80.57252	124	Segway	
+80.58943	125	Segway	
+80.60679	126	Segway	
+80.62291	127	Segway	
+80.63911	128	Segway	
+80.65574	129	Segway	
+80.67233	130	Segway	
+80.68921	131	Segway	
+80.70545	132	Segway	
+80.72195	133	Segway	
+80.73848	134	Segway	
+80.75634	135	Segway	
+80.77235	136	Segway	
+80.78812	137	Segway	
+80.8047	138	Segway	
+80.82138	139	Segway	
+80.8381	140	Segway	
+80.85462	141	Segway	
+80.87123	142	Segway	
+80.88796	143	Segway	
+80.90553	144	Segway	
+80.92103	145	Segway	
+80.93729	146	Segway	
+80.95427	147	Segway	
+80.9708	148	Segway	
+80.98729	149	Segway	
+81.00388	150	Segway	
+81.02086	151	Segway	
+81.03739	152	Segway	
+81.05411	153	Segway	
+81.07011	154	Segway	
+81.08662	155	Segway	
+81.10339	156	Segway	
+81.1206	157	Segway	
+81.13654	158	Segway	
+81.15303	159	Segway	
+81.16969	160	Segway	
+81.18624	161	Segway	
+81.2029	162	Segway	
+81.21987	163	Segway	
+81.23602	164	Segway	
+81.25237	165	Segway	
+81.26907	166	Segway	
+81.28549	167	Segway	
+81.30235	168	Segway	
+81.31867	169	Segway	
+81.33536	170	Segway	
+81.35186	171	Segway	
+81.36891	172	Segway	
+81.3854	173	Segway	
+81.40182	174	Segway	
+81.41876	175	Segway	
+81.43495	176	Segway	
+81.45194	177	Segway	
+81.46823	178	Segway	
+81.48469	179	Segway	
+81.50115	180	Segway	
+81.51774	181	Segway	
+81.53453	182	Segway	
+81.55142	183	Segway	
+81.56809	184	Segway	
+81.58443	185	Segway	
+81.60075	186	Segway	
+81.61709	187	Segway	
+81.63448	188	Segway	
+81.65047	189	Segway	
+81.66689	190	Segway	
+81.68347	191	Segway	
+81.70032	192	Segway	
+81.71644	193	Segway	
+81.73304	194	Segway	
+81.74978	195	Segway	
+81.76666	196	Segway	
+81.7831	197	Segway	
+81.79961	198	Segway	
+81.81646	199	Segway	
+81.83305	200	Segway	
+81.84954	201	Segway	
+81.8672	202	Segway	
+81.88287	203	Segway	
+81.89937	204	Segway	
+81.9166	205	Segway	
+81.93204	206	Segway	
+81.94869	207	Segway	
+81.96561	208	Segway	
+81.9817	209	Segway	
+81.99874	210	Segway	
+82.01601	211	Segway	
+82.03196	212	Segway	
+82.04816	213	Segway	
+82.06525	214	Segway	
+82.08141	215	Segway	
+82.09824	216	Segway	
+82.11442	217	Segway	
+82.13124	218	Segway	
+82.14828	219	Segway	
+82.16517	220	Segway	
+82.18127	221	Segway	
+82.19743	222	Segway	
+82.21384	223	Segway	
+82.46362	224	Segway	
+82.4791	225	Segway	
+82.72838	225	Segway	Segway
+88.84541	225	Segway	
+89.02762	226	Segway	
+89.17695	226	Segway	Segway
+91.68095	226	Segway	Segway
+91.69762	226	Segway	
+91.94569	227	Segway	
+91.96248	228	Segway	
+91.97857	229	Segway	
+92.80755	230	Segway	
+92.8251	231	Segway	
+93.03966	232	Segway	
+94.13376	233	Segway	
+94.15042	234	Segway	
+94.16761	234	Segway	Segway
+107.6136	234	Segway	Segway
+107.6291	234	Segway	Segway
+107.6457	234	Segway	Segway
+107.6622	234	Segway	
+107.8953	235	Segway	
+108.0272	235	Segway	Segway
+110.2495	235	Segway	Segway
+110.2649	235	Segway	
+110.4473	236	Segway	
+110.4638	237	Segway	
+110.4809	237	Segway	Segway
+118.8524	237	Segway	
+118.9187	238	Segway	
+118.9351	239	Segway	
+119.2338	239	Segway	Segway
+123.3795	239	Segway	Segway
+123.3953	239	Segway	
+123.6439	240	Segway	
+123.6608	240	Segway	Segway
+126.5285	240	Segway	Segway
+126.5451	240	Segway	
+126.7271	241	Segway	
+126.7444	241	Segway	Segway
+0	0		
+0.05102766	0		
+0.06644206	0		
+0.08372821	0		
+0.09966403	0		
+0.1166027	0		
+0.1330614	0		
+0.1503144	0		
+0.1666452	0		
+0.1824545	0		
+0.1995109	0		
+0.2162692	0		
+0.2324328	0		
+0.248794	0		
+0.2659642	0		
+0.2826545	0		
+0.2984914	0		
+0.3151799	0		
+0.3318135	0		
+0.3484924	0		
+0.3647295	0		
+0.3816942	0		
+0.3981229	0		
+0.4145398	0		
+0.4352316	0		
+0.4479103	0		
+0.4649661	0		
+0.4815461	0		
+0.4977004	0		
+0.5145994	0		
+0.5311915	0		
+0.5475058	0		
+0.5637333	0		
+0.5804563	0		
+0.5972914	0		
+0.6137975	0		
+0.4974488	1	Surfing	
+0.5140291	2	Surfing	
+0.5304999	3	Surfing	
+0.5474566	4	Surfing	
+0.5641178	4	Surfing	Surfing
+20.11148	4	Surfing	Surfing
+20.12628	4	Surfing	Surfing
+20.14284	4	Surfing	Surfing
+20.15969	4	Surfing	Surfing
+20.17602	4	Surfing	Surfing
+20.19312	4	Surfing	
+20.40837	5	Surfing	
+20.425	5	Surfing	Surfing
+26.32662	5	Surfing	Surfing
+26.34322	5	Surfing	Surfing
+26.36082	5	Surfing	
+26.60841	6	Surfing	
+26.62483	6	Surfing	Surfing
+0	0		
+0.01645288	0		
+0.03308929	0		
+0.04991633	0		
+0.06641789	0		
+0.08286861	0		
+0.09961815	0		
+0.1165931	0		
+0.1325503	0		
+0.1492645	0		
+0.1659204	0		
+0.1829099	0		
+0.1986938	0		
+0.2157128	0		
+0.2325311	0		
+0.2487497	0		
+0.2654084	0		
+0.2818519	0		
+0.2983659	0		
+0.3156185	0		
+0.3317382	0		
+0.3480119	0		
+0.3646064	0		
+0.3816421	0		
+0.3979741	0		
+0.4143436	0		
+0.431202	0		
+0.4480396	0		
+0.4645321	0		
+0.4809658	0		
+0.4973638	0		
+0.5139512	0		
+0.5306041	0		
+0.5470052	0		
+0.5635439	0		
+0.5809494	0		
+4.626281	1		
+4.643477	2		
+4.808903	3		
+4.825892	4		
+4.842186	5		
+4.858576	6		
+4.875025	7		
+4.891535	8		
+4.908516	9		
+4.925053	10		
+4.941494	11		
+4.958646	12		
+4.975195	13		
+4.991199	14		
+5.007648	15		
+5.024489	16		
+5.041305	17		
+5.057465	18		
+5.073675	19		
+5.090784	20		
+5.106881	21		
+5.124074	22		
+5.140377	23		
+5.157534	24		
+5.17342	25		
+5.190886	26		
+5.206425	27		
+5.222993	28		
+5.239664	29		
+5.256395	30		
+5.272946	31		
+5.289571	32		
+5.305984	33		
+5.322929	34		
+5.339068	35		
+5.355944	36		
+5.372365	37		
+5.389484	38		
+5.405396	39		
+5.422522	40		
+5.438788	41		
+5.455712	42		
+5.472007	43		
+5.488544	44		
+5.505265	45		
+5.52177	46		
+5.537873	47		
+5.555231	48		
+5.571014	49		
+5.588233	50		
+5.604577	51		
+5.902655	52		
+6.069614	53		
+6.085688	54		
+6.101795	55		
+6.118187	56		
+6.135183	57		
+6.151501	58		
+6.167884	59		
+6.185012	60		
+6.202511	61		
+6.218608	62		
+6.234223	63		
+6.250989	64		
+6.267688	65		
+6.283997	66		
+6.300604	67		
+6.317703	68		
+6.333961	69		
+6.350573	70		
+6.366858	71		
+6.383315	72		
+6.400349	73		
+6.41656	74		
+6.433847	75		
+6.449848	76		
+6.466995	77		
+6.482922	78		
+6.499646	79		
+0.2814449	0	Segway	Segway
+0.6793998	0	Segway	Segway
+0.6964674	0	Segway	
+1.14386	1	Segway	
+1.359994	1	Segway	Segway
+2.536448	1	Segway	
+2.735187	2	Segway	
+2.751644	2	Segway	Segway
+12.50052	2	Segway	
+12.7323	3	Segway	
+12.74879	4	Segway	
+12.76547	4	Segway	Segway
+20.50764	4	Segway	Segway
+20.52414	4	Segway	
+20.82262	5	Segway	
+20.83953	5	Segway	Segway
+78.83188	5	Segway	Segway
+78.84801	5	Segway	Segway
+78.86533	5	Segway	
+79.04716	6	Segway	
+79.06375	7	Segway	
+79.08015	7	Segway	Segway
+82.61237	7	Segway	Segway
+82.62883	7	Segway	Segway
+82.6457	7	Segway	Segway
+82.66169	7	Segway	Segway
+82.67798	7	Segway	Segway
+82.69481	7	Segway	Segway
+82.71159	7	Segway	Segway
+82.72813	7	Segway	Segway
+82.74448	7	Segway	Segway
+82.76141	7	Segway	Segway
+82.77828	7	Segway	Segway
+82.7942	7	Segway	Segway
+82.81072	7	Segway	Segway
+82.8274	7	Segway	Segway
+82.84407	7	Segway	Segway
+82.86055	7	Segway	Segway
+83.09248	7	Segway	Segway
+83.10939	7	Segway	Segway
+83.12554	7	Segway	
+83.35744	8	Segway	
+83.37431	9	Segway	
+83.39066	10	Segway	
+83.40749	11	Segway	
+83.42453	12	Segway	
+83.44135	13	Segway	
+83.45773	14	Segway	
+83.47369	15	Segway	
+83.49032	16	Segway	
+83.50731	17	Segway	
+83.5237	18	Segway	
+83.53968	19	Segway	
+83.55711	20	Segway	
+83.57324	21	Segway	
+83.58994	22	Segway	
+83.6064	23	Segway	
+83.62297	24	Segway	
+83.64012	25	Segway	
+83.65591	26	Segway	
+83.67275	27	Segway	
+83.68929	28	Segway	
+83.70622	29	Segway	
+83.72229	30	Segway	
+83.73894	31	Segway	
+83.75541	32	Segway	
+83.77216	33	Segway	
+83.78857	34	Segway	
+83.80531	35	Segway	
+83.8216	36	Segway	
+83.83861	37	Segway	
+83.8548	38	Segway	
+83.87144	39	Segway	
+83.88792	40	Segway	
+83.90616	41	Segway	
+83.92149	42	Segway	
+83.93795	43	Segway	
+83.95459	44	Segway	
+83.97132	45	Segway	
+83.98743	46	Segway	
+84.00411	47	Segway	
+84.02116	48	Segway	
+84.03761	49	Segway	
+84.05372	50	Segway	
+84.25269	51	Segway	
+84.27	52	Segway	
+84.28581	52	Segway	Segway
+85.66264	52	Segway	Segway
+85.67834	52	Segway	
+85.84431	53	Segway	
+85.86098	54	Segway	
+85.87835	54	Segway	Segway
+87.53527	54	Segway	Segway
+87.55233	54	Segway	
+87.83379	55	Segway	
+87.86662	55	Segway	Segway
+90.56939	55	Segway	Segway
+90.58595	55	Segway	
+90.76823	56	Segway	
+90.78477	56	Segway	Segway
+94.74699	56	Segway	Segway
+94.76411	56	Segway	Segway
+94.78108	56	Segway	
+94.97931	57	Segway	
+96.33909	58	Segway	
+96.55456	59	Segway	
+96.57101	60	Segway	
+96.58779	60	Segway	Segway
+98.14585	60	Segway	
+98.32824	61	Segway	
+98.42769	61	Segway	Segway
+100.0191	61	Segway	Segway
+100.0364	61	Segway	Segway
+100.0522	61	Segway	Segway
+100.0687	61	Segway	Segway
+100.0857	61	Segway	Segway
+100.102	61	Segway	Segway
+100.1183	61	Segway	Segway
+100.135	61	Segway	Segway
+100.1513	61	Segway	Segway
+100.1684	61	Segway	Segway
+100.1846	61	Segway	Segway
+100.2011	61	Segway	Segway
+100.2188	61	Segway	Segway
+100.2345	61	Segway	Segway
+100.251	61	Segway	Segway
+100.2674	61	Segway	Segway
+100.2841	61	Segway	Segway
+100.3009	61	Segway	Segway
+100.3172	61	Segway	Segway
+100.334	61	Segway	Segway
+100.3505	61	Segway	Segway
+100.3673	61	Segway	Segway
+100.3837	61	Segway	Segway
+100.3999	61	Segway	Segway
+100.4168	61	Segway	Segway
+100.4342	61	Segway	Segway
+100.4503	61	Segway	Segway
+100.4665	61	Segway	Segway
+100.4837	61	Segway	Segway
+100.4996	61	Segway	Segway
+100.5162	61	Segway	
+100.7483	62	Segway	
+100.7653	63	Segway	
+100.7819	63	Segway	Segway
+102.8221	63	Segway	
+103.1533	64	Segway	
+103.1691	64	Segway	Segway
+108.0269	64	Segway	Segway
+108.044	64	Segway	Segway
+108.0607	64	Segway	Segway
+108.0766	64	Segway	Segway
+108.0936	64	Segway	Segway
+108.1104	64	Segway	Segway
+108.1269	64	Segway	Segway
+108.1438	64	Segway	Segway
+108.1595	64	Segway	Segway
+108.177	64	Segway	Segway
+108.1929	64	Segway	Segway
+108.2097	64	Segway	Segway
+108.2264	64	Segway	Segway
+108.2427	64	Segway	Segway
+108.2592	64	Segway	Segway
+108.2758	64	Segway	Segway
+108.2925	64	Segway	Segway
+108.3091	64	Segway	Segway
+108.3253	64	Segway	Segway
+108.3422	64	Segway	Segway
+108.3585	64	Segway	Segway
+108.3761	64	Segway	Segway
+108.3917	64	Segway	Segway
+108.4088	64	Segway	Segway
+108.4252	64	Segway	Segway
+108.4421	64	Segway	Segway
+108.4583	64	Segway	Segway
+108.4746	64	Segway	Segway
+108.4918	64	Segway	Segway
+108.508	64	Segway	Segway
+108.5249	64	Segway	Segway
+108.541	64	Segway	Segway
+108.5582	64	Segway	Segway
+108.5745	64	Segway	Segway
+108.5914	64	Segway	Segway
+108.6073	64	Segway	Segway
+108.6242	64	Segway	Segway
+108.6415	64	Segway	Segway
+108.6577	64	Segway	Segway
+108.6739	64	Segway	Segway
+108.6904	64	Segway	Segway
+108.7073	64	Segway	Segway
+108.7235	64	Segway	Segway
+108.7408	64	Segway	Segway
+108.7564	64	Segway	Segway
+108.7735	64	Segway	Segway
+108.7896	64	Segway	Segway
+108.8064	64	Segway	Segway
+108.8231	64	Segway	Segway
+108.8396	64	Segway	Segway
+108.8561	64	Segway	Segway
+108.8726	64	Segway	Segway
+108.8891	64	Segway	Segway
+108.9062	64	Segway	Segway
+108.9224	64	Segway	Segway
+108.9393	64	Segway	Segway
+108.9557	64	Segway	Segway
+108.9724	64	Segway	Segway
+108.9885	64	Segway	Segway
+109.0051	64	Segway	Segway
+109.0218	64	Segway	Segway
+109.0387	64	Segway	Segway
+109.0556	64	Segway	Segway
+109.0722	64	Segway	Segway
+109.0884	64	Segway	Segway
+109.105	64	Segway	Segway
+109.1211	64	Segway	Segway
+109.1381	64	Segway	Segway
+109.1552	64	Segway	Segway
+109.1719	64	Segway	Segway
+109.1882	64	Segway	Segway
+109.2043	64	Segway	Segway
+109.2206	64	Segway	Segway
+109.2378	64	Segway	Segway
+109.2539	64	Segway	Segway
+109.2708	64	Segway	Segway
+109.2869	64	Segway	Segway
+109.3049	64	Segway	Segway
+109.3203	64	Segway	Segway
+109.3368	64	Segway	Segway
+109.3533	64	Segway	Segway
+109.3703	64	Segway	Segway
+109.3868	64	Segway	Segway
+109.4032	64	Segway	Segway
+109.42	64	Segway	Segway
+109.4369	64	Segway	Segway
+109.453	64	Segway	Segway
+109.4694	64	Segway	Segway
+109.4866	64	Segway	Segway
+109.5028	64	Segway	Segway
+109.5199	64	Segway	Segway
+109.5356	64	Segway	Segway
+109.5524	64	Segway	Segway
+109.5694	64	Segway	Segway
+109.5854	64	Segway	Segway
+109.6022	64	Segway	Segway
+109.6186	64	Segway	Segway
+109.636	64	Segway	Segway
+109.6527	64	Segway	Segway
+109.6684	64	Segway	Segway
+109.685	64	Segway	Segway
+109.7018	64	Segway	Segway
+109.7183	64	Segway	Segway
+109.7346	64	Segway	Segway
+109.7514	64	Segway	Segway
+109.7685	64	Segway	Segway
+109.7845	64	Segway	Segway
+109.8011	64	Segway	Segway
+109.8172	64	Segway	Segway
+109.8339	64	Segway	Segway
+109.8504	64	Segway	Segway
+109.8667	64	Segway	Segway
+109.8834	64	Segway	Segway
+109.9002	64	Segway	Segway
+109.9167	64	Segway	Segway
+109.9334	64	Segway	Segway
+109.9498	64	Segway	Segway
+109.9665	64	Segway	Segway
+109.9828	64	Segway	Segway
+110.0002	64	Segway	Segway
+110.0158	64	Segway	Segway
+110.0332	64	Segway	Segway
+110.0495	64	Segway	Segway
+110.0658	64	Segway	Segway
+110.0834	64	Segway	Segway
+110.099	64	Segway	Segway
+110.1154	64	Segway	Segway
+110.1321	64	Segway	Segway
+110.1487	64	Segway	Segway
+110.1654	64	Segway	Segway
+110.1819	64	Segway	Segway
+110.1985	64	Segway	Segway
+110.2154	64	Segway	Segway
+110.2329	64	Segway	Segway
+110.2481	64	Segway	Segway
+110.2648	64	Segway	Segway
+110.2815	64	Segway	
+111.6406	65	Segway	
+111.6572	66	Segway	
+111.6741	67	Segway	
+111.8562	67	Segway	Segway
+116.1008	67	Segway	Segway
+116.1172	67	Segway	
+116.3328	68	Segway	
+116.3492	68	Segway	Segway
+118.9526	68	Segway	Segway
+118.969	68	Segway	Segway
+118.9858	68	Segway	Segway
+119.0015	68	Segway	Segway
+119.0183	68	Segway	Segway
+119.0349	68	Segway	Segway
+119.0515	68	Segway	
+119.2505	69	Segway	
+119.2678	69	Segway	Segway
+129.1977	69	Segway	Segway
+129.2139	69	Segway	
+129.3964	70	Segway	
+129.413	71	Segway	
+129.4317	71	Segway	Segway
+134.4198	71	Segway	Segway
+134.4366	71	Segway	Segway
+134.4537	71	Segway	
+134.685	72	Segway	
+134.7021	72	Segway	Segway
+0	0		
+0.01688502	0		
+0.0337877	0		
+0.04955705	0		
+0.06628025	0		
+0.08322386	0		
+0.09922168	0		
+0.1157136	0		
+0.1325224	0		
+0.1493916	0		
+0.1655813	0		
+0.1822437	0		
+0.1995782	0		
+0.2159868	0		
+0.2319929	0		
+0.2484142	0		
+0.2653504	0		
+0.2817614	0		
+0.2981712	0		
+0.3155761	0		
+0.3313693	0		
+0.3482968	0		
+0.3643095	0		
+0.3810792	0		
+0.3976585	0		
+0.4144787	0		
+0.4307658	0		
+0.4475032	0		
+0.4639912	0		
+0.4809267	0		
+0.4971769	0		
+0.513936	0		
+0.5304407	0		
+0.5477752	0		
+0.5633669	0		
+0.5800325	0		
+0.5964317	0		
+0.6136119	0		
+0.6297715	0		
+0.6463444	0		
+0.664031	0		
+0.6795288	0		
+0.6960629	0		
+0.7130843	0		
+0.7292157	0		
+0.7460394	0		
+0.7625174	0		
+0.7796073	0		
+0.7954988	0		
+0.8123209	0		
+0.8288283	0		
+0.8453218	0		
+0.8616842	0		
+0.8786325	0		
+0.8953619	0		
+0.9114741	0		
+0.9279025	0		
+0.9449053	0		
+0.9611381	0		
+0.9779298	0		
+0.9944211	0		
+1.011971	0		
+1.027667	0		
+1.044183	0		
+1.060813	0		
+1.077468	0		
+1.094191	0		
+1.110409	0		
+1.12828	0		
+1.143728	0		
+1.160424	0		
+1.176724	0		
+1.193292	0		
+1.210591	0		
+1.226638	0		
+1.243934	0		
+1.259617	0		
+1.276646	0		
+1.292999	0		
+1.30957	0		
+1.326098	0		
+1.342989	0		
+1.359727	0		
+1.37623	0		
+1.392205	0		
+1.409302	0		
+1.425537	0		
+1.442216	0		
+1.458616	0		
+1.47617	0		
+1.492005	0		
+1.508686	0		
+1.525459	0		
+1.541946	0		
+1.558351	0		
+1.575002	0		
+1.591879	0		
+1.60834	0		
+1.624503	0		
+1.64139	0		
+1.658065	0		
+1.6746	0		
+1.690836	0		
+1.708181	0		
+1.724073	0		
+1.741366	0		
+1.757245	0		
+1.774067	0		
+1.790362	0		
+1.807691	0		
+1.82407	0		
+1.840075	0		
+1.85705	0		
+1.877017	0		
+1.889604	0		
+1.906312	0		
+1.922723	0		
+1.94021	0		
+1.956203	0		
+1.972623	0		
+1.98943	0		
+2.007715	0		
+2.023504	0		
+2.039488	0		
+2.055533	0		
+2.072076	0		
+2.088925	0		
+2.105417	0		
+2.121964	0		
+2.138411	0		
+136.7173	1		
+136.7342	2		
+136.7507	3		
+136.7672	4		
+136.7839	5		
+136.8012	6		
+136.817	7		
+136.8335	8		
+136.8504	9		
+136.8675	10		
+136.8833	11		
+136.9019	12		
+136.9171	13		
+136.9331	14		
+136.95	15		
+136.9663	16		
+136.9829	17		
+136.9994	18		
+137.0166	19		
+137.0326	20		
+137.0493	21		
+137.0658	22		
+137.0829	23		
+137.0988	24		
+137.1159	25		
+137.1328	26		
+137.149	27		
+137.1653	28		
+137.182	29		
+137.1985	30		
+137.2151	31		
+137.2319	32		
+220.3566	33		
+220.3734	34		
+220.3911	35		
+224.2858	36		
+224.3026	37		
+224.3204	38		
+224.3357	39		
+224.3527	40		
+224.3691	41		
+224.3858	42		
+224.4023	43		
+224.5348	44		
+224.5516	45		
+224.5677	46		
+224.585	47		
+224.6009	48		
+224.6175	49		
+224.6343	50		
+224.6514	51		
+224.6674	52		
+224.6838	53		
+224.7003	54		
+224.7174	55		
+224.7335	56		
+224.75	57		
+224.7666	58		
+224.7841	59		
+224.7999	60		
+224.8167	61		
+224.8329	62		
+224.8501	63		
+224.8667	64		
+224.883	65		
+224.8996	66		
+224.9163	67		
+225.5128	68		
+225.5304	69		
+225.546	70		
+225.5637	71		
+225.5794	72		
+225.5959	73		
+225.6122	74		
+226.1101	74		
+226.3751	74		
+226.3921	74		
+226.4082	74		
+227.2374	74		
+227.2539	74		
+227.2705	74		
+227.2867	74		
+227.3033	74		
+227.32	74		
+227.3376	74		
+227.3529	74		
+227.3698	74		
+227.3864	74		
+227.403	74		
+227.4194	74		
+227.436	74		
+227.453	74		
+227.4689	74		
+227.4856	74		
+227.5023	74		
+227.718	74		
+227.7347	74		
+227.7509	74		
+227.7676	74		
+227.7845	74		
+227.8012	74		
+227.8172	74		
+227.8341	74		
+227.8508	74		
+227.8671	74		
+227.8836	74		
+227.9003	74		
+227.9175	74		
+227.9331	74		
+227.95	74		
+228.2984	74		
+228.3154	74		
+228.3309	74		
+228.3477	74		
+228.3643	74		
+228.3811	74		
+228.3974	74		
+228.4139	74		
+228.4306	74		
+228.4473	74		
+228.4635	74		
+228.4804	74		
+228.4981	74		
+228.5142	74		
+228.5303	74		
+228.5465	74		
+228.5633	74		
+228.5799	74		
+228.5966	74		
+228.6133	74		
+228.6296	74		
+228.6468	74		
+228.6629	74		
+228.6793	74		
+228.6958	74		
+228.7127	74		
+228.7296	74		
+228.7457	74		
+228.7622	74		
+228.7788	74		
+228.7952	74		
+228.8119	74		
+228.8286	74		
+228.846	74		
+228.8616	74		
+228.8787	74		
+228.895	74		
+228.912	74		
+228.9285	74		
+228.9447	74		
+228.9616	74		
+228.9782	74		
+228.9944	74		
+229.0111	74		
+229.0274	74		
+229.0445	74		
+229.0607	74		
+229.0779	74		
+229.0937	74		
+229.1107	74		
+229.1272	74		
+229.1438	74		
+229.16	74		
+229.177	74		
+229.1939	74		
+229.2099	74		
+229.2263	74		
+229.2435	74		
+229.2594	74		
+229.2761	74		
+229.2925	74		
+229.3156	74		
+229.3257	74		
+229.3422	74		
+229.3591	74		
+229.376	74		
+229.393	74		
+229.4091	74		
+229.4257	74		
+229.4422	74		
+229.4589	74		
+229.4751	74		
+229.4918	74		
+229.5085	74		
+229.5248	74		
+229.5419	74		
+229.5581	74		
+229.5752	74		
+229.5914	74		
+229.6078	74		
+229.6245	74		
+229.6413	74		
+229.6584	74		
+229.6745	74		
+229.6905	74		
+229.7076	74		
+229.7237	74		
+229.7401	74		
+229.7569	74		
+229.7744	74		
+229.79	74		
+229.8065	74		
+229.8234	74		
+229.8403	74		
+229.8563	74		
+229.8732	74		
+229.8905	74		
+229.9071	74		
+229.9227	74		
+229.9394	74		
+229.9558	74		
+229.9727	74		
+229.9892	74		
+230.0061	74		
+230.0224	74		
+230.039	74		
+230.0556	74		
+230.0721	74		
+230.0885	74		
+230.1053	74		
+230.1228	74		
+230.1385	74		
+230.155	74		
+230.1713	74		
+230.1885	74		
+230.2044	74		
+230.2213	74		
+230.2384	74		
+230.2546	74		
+230.2707	74		
+230.2879	74		
+230.3039	74		
+230.3209	74		
+230.3379	74		
+230.3546	74		
+230.3708	74		
+230.3873	74		
+230.4041	74		
+230.4202	74		
+230.4371	74		
+230.4534	74		
+230.4698	74		
+230.4866	74		
+230.5029	74		
+230.52	74		
+230.5361	74		
+230.553	74		
+230.5691	74		
+230.5873	74		
+230.6025	74		
+230.6191	74		
+230.6357	74		
+230.6526	74		
+230.6688	74		
+230.6853	74		
+230.7026	74		
+230.7192	74		
+230.7349	74		
+230.7517	74		
+230.7683	74		
+230.7851	74		
+230.8012	74		
+230.819	74		
+230.8346	74		
+230.8516	74		
+230.868	74		
+230.8844	74		
+230.9016	74		
+230.9178	74		
+230.9347	74		
+230.9507	74		
+230.9671	74		
+230.9839	74		
+231.0003	74		
+231.017	74		
+231.0337	74		
+231.0509	74		
+231.0669	74		
+231.0835	74		
+231.1	74		
+231.1166	74		
+231.1329	74		
+231.1495	74		
+231.1666	74		
+231.1833	74		
+231.1994	74		
+231.2159	74		
+231.2324	74		
+231.2493	74		
+231.2654	74		
+231.2829	74		
+231.2988	74		
+231.3157	74		
+231.3317	74		
+231.3485	74		
+231.3651	74		
+231.3821	74		
+231.3992	74		
+231.4149	74		
+231.4315	74		
+231.4482	74		
+231.4648	74		
+231.4813	74		
+231.4979	74		
+231.5144	74		
+231.531	74		
+231.5473	74		
+231.5643	74		
+231.5807	74		
+231.5971	74		
+231.614	74		
+231.6311	74		
+231.6476	74		
+231.6635	74		
+231.6801	74		
+231.6967	74		
+231.7136	74		
+231.7297	74		
+231.7474	74		
+231.7628	74		
+231.7798	74		
+231.796	74		
+231.8127	74		
+231.8293	74		
+231.8465	74		
+231.8635	74		
+231.8791	74		
+231.8964	74		
+231.9124	74		
+231.929	74		
+231.9453	74		
+231.962	74		
+231.9816	74		
+231.9954	74		
+232.0118	74		
+232.0286	74		
+232.0452	74		
+232.0615	74		
+232.0781	74		
+232.0952	74		
+232.1112	74		
+232.1284	74		
+232.1444	74		
+232.161	74		
+232.1781	74		
+4.707948	1	Segway	
+4.990537	1	Segway	Segway
+5.786954	1	Segway	Segway
+5.80279	1	Segway	
+6.068086	2	Segway	
+6.382863	2	Segway	Segway
+23.62555	2	Segway	Segway
+23.64138	2	Segway	
+23.85741	3	Segway	
+24.18846	3	Segway	Segway
+31.20127	3	Segway	Segway
+31.21822	3	Segway	
+31.4335	4	Segway	
+31.45017	4	Segway	Segway
+68.33745	4	Segway	Segway
+68.35407	4	Segway	
+68.5193	5	Segway	
+68.53667	5	Segway	Segway
+71.30486	5	Segway	Segway
+71.32183	5	Segway	Segway
+71.33784	5	Segway	
+71.57008	6	Segway	
+71.63634	6	Segway	Segway
+85.79506	6	Segway	Segway
+85.81151	6	Segway	
+86.04335	7	Segway	
+86.0603	8	Segway	
+86.07642	9	Segway	
+86.09316	10	Segway	
+86.10948	11	Segway	
+86.12644	12	Segway	
+86.14264	13	Segway	
+86.15926	14	Segway	
+86.17628	15	Segway	
+86.19269	16	Segway	
+86.20929	17	Segway	
+86.2258	18	Segway	
+86.24265	19	Segway	
+86.25925	20	Segway	
+86.276	21	Segway	
+86.29222	22	Segway	
+86.30891	23	Segway	
+86.32535	24	Segway	
+86.3418	25	Segway	
+86.35831	26	Segway	
+86.37559	27	Segway	
+86.39182	28	Segway	
+86.4081	29	Segway	
+86.42561	30	Segway	
+86.44138	31	Segway	
+86.45837	32	Segway	
+86.47431	33	Segway	
+86.4909	34	Segway	
+86.50748	35	Segway	
+86.52437	36	Segway	
+86.54166	37	Segway	
+86.55718	38	Segway	
+86.57386	39	Segway	
+86.5909	40	Segway	
+86.60725	41	Segway	
+86.62356	42	Segway	
+86.64021	43	Segway	
+86.65695	44	Segway	
+86.67316	45	Segway	
+86.68998	46	Segway	
+86.70649	47	Segway	
+86.72351	48	Segway	
+86.73987	49	Segway	
+86.75659	50	Segway	
+86.77379	51	Segway	
+86.79002	52	Segway	
+86.80586	53	Segway	
+86.82245	54	Segway	
+86.83904	55	Segway	
+86.85618	56	Segway	
+86.87288	57	Segway	
+86.88916	58	Segway	
+86.90541	59	Segway	
+86.92228	60	Segway	
+86.9387	61	Segway	
+86.95554	62	Segway	
+87.17056	63	Segway	
+87.18793	64	Segway	
+87.2039	65	Segway	
+87.22064	66	Segway	
+87.23711	67	Segway	
+87.2545	68	Segway	
+87.27079	69	Segway	
+87.2869	70	Segway	
+87.30327	71	Segway	
+87.32022	72	Segway	
+87.337	73	Segway	
+87.35359	74	Segway	
+87.37038	75	Segway	
+87.38657	76	Segway	
+87.40292	77	Segway	
+87.41941	78	Segway	
+87.4361	79	Segway	
+87.45302	80	Segway	
+87.46918	81	Segway	
+87.4863	82	Segway	
+87.5024	83	Segway	
+87.51908	84	Segway	
+87.53586	85	Segway	
+87.55196	86	Segway	
+87.56863	87	Segway	
+87.58577	88	Segway	
+87.60193	89	Segway	
+87.61841	90	Segway	
+87.63499	91	Segway	
+87.6517	92	Segway	
+87.66798	93	Segway	
+87.68504	94	Segway	
+87.70123	95	Segway	
+87.71822	96	Segway	
+87.73469	97	Segway	
+87.75141	98	Segway	
+87.76775	99	Segway	
+87.78445	100	Segway	
+87.80078	101	Segway	
+87.81771	102	Segway	
+87.83407	103	Segway	
+87.85075	104	Segway	
+87.86719	105	Segway	
+87.88363	106	Segway	
+87.90012	107	Segway	
+87.9168	108	Segway	
+87.9333	109	Segway	
+87.95042	110	Segway	
+87.9665	111	Segway	
+87.98314	112	Segway	
+88.00019	113	Segway	
+88.01637	114	Segway	
+88.0327	115	Segway	
+88.05021	116	Segway	
+88.06606	117	Segway	
+88.08264	118	Segway	
+88.09898	119	Segway	
+88.11549	120	Segway	
+88.13258	121	Segway	
+88.14871	122	Segway	
+88.16605	123	Segway	
+88.18195	124	Segway	
+88.19904	125	Segway	
+88.21515	126	Segway	
+88.23197	127	Segway	
+88.24837	128	Segway	
+88.2653	129	Segway	
+88.28285	130	Segway	
+88.2982	131	Segway	
+88.31447	132	Segway	
+88.33136	133	Segway	
+88.34773	134	Segway	
+88.36436	135	Segway	
+88.38092	136	Segway	
+88.61305	137	Segway	
+88.71239	137	Segway	Segway
+91.61423	137	Segway	Segway
+91.63043	137	Segway	Segway
+92.34384	137	Segway	Segway
+92.35966	137	Segway	Segway
+92.37691	137	Segway	Segway
+92.39278	137	Segway	Segway
+92.41041	137	Segway	Segway
+92.42627	137	Segway	
+92.64208	138	Segway	
+92.65818	139	Segway	
+92.69128	139	Segway	Segway
+97.34999	139	Segway	Segway
+97.3666	139	Segway	
+97.61526	140	Segway	
+97.63178	140	Segway	Segway
+102.9536	140	Segway	Segway
+102.9697	140	Segway	Segway
+102.9869	140	Segway	Segway
+103.003	140	Segway	Segway
+103.0194	140	Segway	Segway
+103.0363	140	Segway	
+103.3181	141	Segway	
+103.3344	142	Segway	
+103.3517	143	Segway	
+103.3676	144	Segway	
+103.3843	145	Segway	
+103.4014	146	Segway	
+103.4174	147	Segway	
+103.4341	148	Segway	
+103.4507	149	Segway	
+103.4672	150	Segway	
+103.4837	151	Segway	
+103.5002	152	Segway	
+103.5176	153	Segway	
+103.5335	154	Segway	
+103.5502	155	Segway	
+103.5668	156	Segway	
+103.5841	157	Segway	
+103.5997	158	Segway	
+103.6166	159	Segway	
+103.6339	160	Segway	
+103.6496	161	Segway	
+103.6661	162	Segway	
+103.6827	163	Segway	
+103.6991	164	Segway	
+103.7157	165	Segway	
+103.7333	166	Segway	
+103.7496	167	Segway	
+103.7658	168	Segway	
+103.7827	169	Segway	
+103.7994	170	Segway	
+103.815	171	Segway	
+103.8317	172	Segway	
+103.8486	173	Segway	
+103.866	174	Segway	
+103.8818	175	Segway	
+103.8981	176	Segway	
+103.9152	177	Segway	
+103.9317	178	Segway	
+103.9486	179	Segway	
+103.9648	180	Segway	
+103.9816	181	Segway	
+103.9977	182	Segway	
+104.0152	183	Segway	
+104.1634	184	Segway	
+104.2306	184	Segway	Segway
+117.5918	184	Segway	Segway
+117.6084	184	Segway	Segway
+117.6249	184	Segway	
+118.0061	185	Segway	
+118.0229	186	Segway	
+118.852	187	Segway	
+118.8684	188	Segway	
+118.8855	189	Segway	
+118.9018	190	Segway	
+118.9179	191	Segway	
+118.9348	192	Segway	
+118.9513	193	Segway	
+118.968	194	Segway	
+118.9843	195	Segway	
+119.0014	196	Segway	
+119.0179	197	Segway	
+119.0342	198	Segway	
+119.0509	199	Segway	
+119.0672	200	Segway	
+119.399	201	Segway	
+119.6142	201	Segway	Segway
+131.6841	201	Segway	
+131.8827	202	Segway	
+132.0817	202	Segway	Segway
+134.6182	202	Segway	Segway
+134.6346	202	Segway	Segway
+134.6511	202	Segway	Segway
+134.6677	202	Segway	Segway
+134.6861	202	Segway	Segway
+134.7017	202	Segway	Segway
+134.7173	202	Segway	Segway
+134.7343	202	Segway	Segway
+134.7521	202	Segway	Segway
+134.7679	202	Segway	Segway
+134.784	202	Segway	Segway
+134.8004	202	Segway	Segway
+134.8176	202	Segway	Segway
+134.8344	202	Segway	Segway
+134.8504	202	Segway	Segway
+134.8666	202	Segway	Segway
+134.8833	202	Segway	Segway
+134.9006	202	Segway	Segway
+134.9163	202	Segway	Segway
+134.9332	202	Segway	Segway
+134.9501	202	Segway	Segway
+134.9668	202	Segway	Segway
+134.9829	202	Segway	Segway
+134.9996	202	Segway	Segway
+135.0159	202	Segway	Segway
+135.0328	202	Segway	Segway
+135.0491	202	Segway	Segway
+135.0658	202	Segway	Segway
+135.1989	202	Segway	Segway
+135.2154	202	Segway	
+135.5464	203	Segway	
+135.8116	203	Segway	Segway
+0	0		
+0.01584933	0		
+0.03395758	0		
+0.04972848	0		
+0.06631497	0		
+0.08242439	0		
+0.0990487	0		
+0.1159756	0		
+0.1343842	0		
+0.1489132	0		
+0.2154626	0		
+0.2316368	0		
+0.2487313	0		
+0.2647512	0		
+0.2825277	0		
+0.2981526	0		
+0.3148609	0		
+0.3310469	0		
+0.3479334	0		
+0.364674	0		
+0.3814858	0		
+0.3975438	0		
+0.4139681	0		
+0.4309784	0		
+0.4473417	0		
+0.4636002	0		
+0.4805317	0		
+0.4966507	0		
+0.5149695	0		
+0.5298752	0		
+0.5465956	0		
+0.5632288	0		
+0.580116	0		
+0.596276	0		
+0.6129229	0		
+1.310523	1	Segway	
+1.326832	2	Segway	
+1.343705	3	Segway	
+1.36104	4	Segway	
+1.376541	5	Segway	
+1.575476	6	Segway	
+1.592631	6	Segway	Segway
+28.08446	6	Segway	Segway
+28.10102	6	Segway	
+28.33331	7	Segway	
+28.34947	8	Segway	
+28.36604	9	Segway	
+28.38311	10	Segway	
+28.40017	11	Segway	
+28.41565	12	Segway	
+28.43256	13	Segway	
+28.44932	14	Segway	
+28.46584	15	Segway	
+28.48248	16	Segway	
+28.49893	17	Segway	
+28.51594	18	Segway	
+28.5321	19	Segway	
+28.54875	20	Segway	
+28.56519	21	Segway	
+28.58194	22	Segway	
+28.59852	23	Segway	
+28.61468	24	Segway	
+28.63148	25	Segway	
+28.64798	26	Segway	
+28.66516	27	Segway	
+28.68112	28	Segway	
+28.69773	29	Segway	
+28.71458	30	Segway	
+28.73112	31	Segway	
+28.74812	32	Segway	
+28.76419	33	Segway	
+28.7807	34	Segway	
+28.7975	35	Segway	
+28.81364	36	Segway	
+28.83034	37	Segway	
+28.84679	38	Segway	
+28.86382	39	Segway	
+28.8799	40	Segway	
+28.89654	41	Segway	
+28.91362	42	Segway	
+28.92979	43	Segway	
+28.94633	44	Segway	
+28.96318	45	Segway	
+28.98043	46	Segway	
+28.99631	47	Segway	
+29.01281	48	Segway	
+29.02929	49	Segway	
+29.04585	50	Segway	
+29.06268	51	Segway	
+29.07891	52	Segway	
+29.09615	53	Segway	
+29.11242	54	Segway	
+29.12918	55	Segway	
+29.14508	56	Segway	
+29.16199	57	Segway	
+29.41053	58	Segway	
+29.42713	59	Segway	
+29.44394	59	Segway	Segway
+93.4375	59	Segway	Segway
+93.45422	59	Segway	Segway
+93.47079	59	Segway	Segway
+93.48808	59	Segway	Segway
+93.50409	59	Segway	Segway
+93.52046	59	Segway	Segway
+93.5367	59	Segway	Segway
+93.55383	59	Segway	Segway
+0	0		
+0.01727003	0		
+0.0351898	0		
+0.05039558	0		
+0.06681437	0		
+0.0833336	0		
+0.1029385	0		
+0.1166594	0		
+0.1336309	0		
+0.1496476	0		
+0.1663739	0		
+0.1836192	0		
+0.1996052	0		
+0.2159276	0		
+0.2329521	0		
+0.2492549	0		
+0.2663836	0		
+0.2822209	0		
+0.2990507	0		
+0.3154094	0		
+0.3323251	0		
+0.3488911	0		
+0.3653927	0		
+0.3823846	0		
+0.3994848	0		
+0.4149829	0		
+0.4320954	0		
+0.4480601	0		
+0.4646488	0		
+0.4818661	0		
+0.497965	0		
+0.514478	0		
+0.5307502	0		
+1.244562	1	Surfing	
+1.260382	2	Surfing	
+1.277581	2	Surfing	Surfing
+0	0		
+0.01599286	0		
+0.03255145	0		
+0.04906819	0		
+0.06584192	0		
+0.08274181	0		
+0.09979639	0		
+0.1155608	0		
+0.1318751	0		
+0.1485788	0		
+0.1653854	0		
+0.181877	0		
+0.1984576	0		
+0.2156941	0		
+0.2322741	0		
+0.2480565	0		
+0.2647955	0		
+0.2813913	0		
+0.298085	0		
+0.3144706	0		
+0.3315618	0		
+0.3476839	0		
+0.3642775	0		
+0.3807248	0		
+0.3974381	0		
+0.413754	0		
+0.430692	0		
+0.4469534	0		
+0.4635408	0		
+0.4799884	0		
+0.4972386	0		
+0.5132032	0		
+0.5302907	0		
+0.5464587	0		
+0.5634016	0		
+0.5811419	0		
+0.5964668	0		
+0.613061	0		
+0.6296571	0		
+1.45841	1	Segway	
+1.475375	1	Segway	Segway
+2.984389	1	Segway	Segway
+2.999943	1	Segway	
+3.282096	2	Segway	
+3.298637	2	Segway	Segway
+0	0		
+0.01721609	0		
+0.03352483	0		
+0.05006823	0		
+0.06670835	0		
+0.08350719	0		
+0.1001507	0		
+0.116417	0		
+0.1333637	0		
+0.1499396	0		
+0.1659176	0		
+0.1827636	0		
+0.1991356	0		
+0.216144	0		
+0.2324381	0		
+0.2490265	0		
+0.2658511	0		
+0.2823715	0		
+0.2987788	0		
+0.3152413	0		
+0.3321087	0		
+0.3496456	0		
+0.3650715	0		
+0.381933	0		
+0.3984978	0		
+0.4153533	0		
+0.4316035	0		
+0.4479138	0		
+0.4650387	0		
+0.4814219	0		
+0.4974851	0		
+0.5143735	0		
+0.5308769	0		
+0.5478781	0		
+0.5639535	0		
+0.5811894	0		
+0.5971615	0		
+0.6138388	0		
+0.6305391	0		
+0.6468869	0		
+5.952376	1		
+5.968871	2		
+5.985528	3		
+6.003122	4		
+6.466814	5		
+6.48334	6		
+6.499355	7		
+6.516191	8		
+0.01640856	0	Surfing	Surfing
+0	0		
+0.01716525	0		
+0.0335611	0		
+0.04996345	0		
+0.06595445	0		
+0.08298733	0		
+0.09917765	0		
+0.1159588	0		
+0.4308724	0		
+0.4477537	0		
+0.4640767	0		
+2.785424	0	Walking	Walking
+2.851745	0	Walking	
+2.885153	0	Walking	Walking
+3.017336	0	Walking	
+3.10067	0	Walking	Walking
+3.648566	0	Walking	
+3.812847	0	Walking	Walking
+4.078395	0	Walking	
+4.393459	0	Walking	Walking
+4.807728	0	Walking	
+5.255327	0	Walking	Walking
+6.730489	0	Walking	
+7.145348	0	Walking	Walking
+7.526423	0	Walking	
+7.791653	0	Walking	Walking
+8.023758	0	Walking	
+8.090062	0	Walking	Walking
+8.156445	0	Walking	
+8.206443	0	Walking	Walking
+8.273685	0	Walking	
+8.355359	0	Walking	Walking
+8.42169	0	Walking	
+8.471432	0	Walking	Walking
+8.587525	0	Walking	
+8.637141	0	Walking	Walking
+8.737123	0	Walking	
+8.769912	0	Walking	Walking
+8.869839	0	Walking	
+8.935916	0	Walking	Walking
+9.018586	0	Walking	
+9.069173	0	Walking	Walking
+9.184449	0	Walking	
+9.217328	0	Walking	Walking
+9.416571	0	Walking	
+9.831696	0	Walking	Walking
+10.47837	0	Walking	
+10.57701	0	Walking	Walking
+11.02459	0	Walking	
+11.24023	0	Walking	Walking
+11.35642	0	Walking	
+11.40597	0	Walking	Walking
+11.50523	0	Walking	
+11.52287	0	Walking	Walking
+11.60469	0	Walking	
+11.6546	0	Walking	Walking
+11.77043	0	Walking	
+11.80375	0	Walking	Walking
+11.88674	0	Walking	
+11.91987	0	Walking	Walking
+12.18503	0	Walking	
+12.86509	0	Walking	Walking
+15.12023	0	Walking	
+16.11532	0	Walking	Walking
+16.37969	0	Walking	
+16.4294	0	Walking	Walking
+16.72806	0	Walking	
+17.05968	0	Walking	Walking
+17.75585	0	Walking	
+18.10448	0	Walking	Walking
+18.2035	0	Walking	
+18.22009	0	Walking	Walking
+18.30319	0	Walking	
+18.36949	0	Walking	Walking
+18.41957	0	Walking	
+18.50234	0	Walking	Walking
+18.5682	0	Walking	
+18.61779	0	Walking	Walking
+18.71845	0	Walking	
+18.78516	0	Walking	Walking
+18.86742	0	Walking	
+18.91678	0	Walking	Walking
+19.03242	0	Walking	
+19.08277	0	Walking	Walking
+19.18141	0	Walking	
+19.21578	0	Walking	Walking
+19.33083	0	Walking	
+19.38084	0	Walking	Walking
+19.48005	0	Walking	
+19.52976	0	Walking	Walking
+19.56334	0	Walking	
+20.20938	0	Walking	Walking
+22.24849	0	Walking	
+22.62976	0	Walking	Walking
+22.67969	0	Walking	
+22.72894	0	Walking	Walking
+22.79529	0	Walking	
+22.87853	0	Walking	Walking
+22.97786	0	Walking	
+23.02752	0	Walking	Walking
+23.09401	0	Walking	
+23.16003	0	Walking	Walking
+23.25944	0	Walking	
+23.29261	0	Walking	Walking
+23.39216	0	Walking	
+23.4254	0	Walking	Walking
+23.49165	0	Walking	
+23.95616	0	Walking	Walking
+26.36155	0	Walking	
+26.87482	0	Walking	Walking
+26.94043	0	Walking	
+26.97388	0	Walking	Walking
+27.05733	0	Walking	
+27.12306	0	Walking	Walking
+27.22257	0	Walking	
+27.23884	0	Walking	Walking
+27.35542	0	Walking	
+27.40483	0	Walking	Walking
+27.68643	0	Walking	
+27.70379	0	Walking	Walking
+27.96867	0	Walking	
+28.25021	0	Walking	Walking
+28.74751	0	Walking	
+28.94653	0	Walking	Walking
+29.14549	0	Walking	
+29.19521	0	Walking	Walking
+29.29505	0	Walking	
+29.34552	0	Walking	Walking
+29.42767	0	Walking	
+29.46074	0	Walking	Walking
+29.54446	0	Walking	
+29.99073	0	Walking	Walking
+31.89702	0	Walking	
+32.49397	0	Walking	Walking
+33.48951	0	Walking	
+33.62181	0	Walking	Walking
+33.98632	0	Walking	
+34.21852	0	Walking	Walking
+34.40088	0	Walking	
+34.46684	0	Walking	Walking
+34.53311	0	Walking	
+34.59956	0	Walking	Walking
+34.66572	0	Walking	
+34.71542	0	Walking	Walking
+34.83185	0	Walking	
+34.86475	0	Walking	Walking
+34.93163	0	Walking	
+34.99756	0	Walking	Walking
+35.09759	0	Walking	
+35.16351	0	Walking	Walking
+35.23019	0	Walking	
+35.64393	0	Walking	Walking
+37.33567	0	Walking	
+37.73312	0	Walking	Walking
+38.08134	0	Walking	
+38.39663	0	Walking	Walking
+38.42969	0	Walking	
+38.46252	0	Walking	Walking
+38.54593	0	Walking	
+38.61212	0	Walking	Walking
+38.69518	0	Walking	
+38.72877	0	Walking	Walking
+38.828	0	Walking	
+38.89452	0	Walking	Walking
+38.96041	0	Walking	
+39.01019	0	Walking	Walking
+39.09317	0	Walking	
+39.15927	0	Walking	Walking
+39.24192	0	Walking	
+39.27509	0	Walking	Walking
+39.37449	0	Walking	
+0	0		
+0.01634036	0		
+0.03320181	0		
+0.04992935	0		
+0.06650871	0		
+0.08334878	0		
+0.0994926	0		
+0.1161476	1		
+0.1328568	2		
+0.1494905	3		
+0.1662868	4		
+0.1822056	5		
+0.1991405	6		
+0.2159273	7		
+0.2321973	8		
+8.239926	9		
+8.256275	10		
+8.272695	11		
+8.289532	12		
+8.306311	13		
+8.322609	14		
+8.339239	15		
+8.355618	16		
+8.372483	17		
+8.388902	18		
+8.405303	19		
+8.42208	20		
+8.439458	21		
+8.455781	22		
+8.471562	23		
+8.488409	24		
+8.504909	25		
+8.521772	26		
+8.537962	27		
+8.554726	28		
+8.571408	29		
+8.588418	30		
+8.604861	31		
+8.620874	32		
+8.637934	33		
+8.654315	34		
+8.670714	35		
+8.687406	36		
+8.704343	37		
+8.721244	38		
+0.01565992	0	Surfing	Surfing
+0.2812174	0	Surfing	Surfing
+0.2977682	0	Surfing	
+0.6129493	1	Surfing	
+0.6292084	2	Surfing	
+0.6458507	2	Surfing	Surfing
+0	0		
+0.01669685	0		
+0.03464638	0		
+0.05031685	0		
+0.06675857	0		
+0.08722122	0		
+0.100173	0		
+0.1164046	0		
+0.4319069	0		
+0.4482513	0		
+0.4652281	0		
+0.4812863	0		
+0.4983828	0		
+1.74065	0	Walking	Walking
+1.790093	0	Walking	
+1.806761	0	Walking	Walking
+1.906292	0	Walking	
+2.039708	0	Walking	Walking
+2.13843	0	Walking	
+2.188112	0	Walking	Walking
+2.270753	0	Walking	
+2.35411	0	Walking	Walking
+2.420126	0	Walking	
+2.519369	0	Walking	Walking
+2.602444	0	Walking	
+2.636519	0	Walking	Walking
+2.785156	0	Walking	
+2.834702	0	Walking	Walking
+3.100085	0	Walking	
+3.431762	0	Walking	Walking
+4.823703	0	Walking	
+5.221803	0	Walking	Walking
+5.288028	0	Walking	
+5.337739	0	Walking	Walking
+5.420522	0	Walking	
+5.470521	0	Walking	Walking
+5.569882	0	Walking	
+5.619329	0	Walking	Walking
+5.702974	0	Walking	
+5.71918	0	Walking	Walking
+5.801811	0	Walking	
+6.16715	0	Walking	Walking
+6.581632	0	Walking	
+6.846244	0	Walking	Walking
+6.912441	0	Walking	
+6.96356	0	Walking	Walking
+7.045287	0	Walking	
+7.095824	0	Walking	Walking
+7.161561	0	Walking	
+7.244828	0	Walking	Walking
+7.310776	0	Walking	
+7.377029	0	Walking	Walking
+7.460686	0	Walking	
+7.509843	0	Walking	Walking
+7.609395	0	Walking	
+7.642545	0	Walking	Walking
+7.725977	0	Walking	
+7.775598	0	Walking	Walking
+7.857817	0	Walking	
+7.940626	0	Walking	Walking
+7.990596	0	Walking	
+8.073583	0	Walking	Walking
+8.156381	0	Walking	
+8.20575	0	Walking	Walking
+8.306096	0	Walking	
+8.32223	0	Walking	Walking
+8.471253	0	Walking	
+8.520947	0	Walking	Walking
+8.570599	0	Walking	Walking
+8.587278	0	Walking	Walking
+8.703518	0	Walking	
+9.299982	0	Walking	Walking
+10.70912	0	Walking	
+10.99118	0	Walking	Walking
+11.09054	0	Walking	
+11.19013	0	Walking	Walking
+11.28946	0	Walking	
+11.6378	0	Walking	Walking
+11.70411	0	Walking	
+11.75339	0	Walking	Walking
+11.83636	0	Walking	
+11.886	0	Walking	Walking
+11.96905	0	Walking	
+12.00227	0	Walking	Walking
+12.08521	0	Walking	
+12.11812	0	Walking	Walking
+12.21772	0	Walking	
+12.28467	0	Walking	Walking
+12.36669	0	Walking	
+12.38334	0	Walking	Walking
+12.48313	0	Walking	
+12.53289	0	Walking	Walking
+12.63222	0	Walking	Walking
+12.78147	0	Walking	
+12.84749	0	Walking	Walking
+12.91384	0	Walking	Walking
+13.01338	0	Walking	
+13.79303	0	Walking	Walking
+15.1192	0	Walking	
+15.41753	0	Walking	Walking
+15.48406	0	Walking	
+15.56664	0	Walking	Walking
+15.61693	0	Walking	
+15.6996	0	Walking	Walking
+15.78223	0	Walking	
+15.86528	0	Walking	Walking
+15.91498	0	Walking	
+15.96569	0	Walking	Walking
+16.03079	0	Walking	
+16.11404	0	Walking	Walking
+16.18064	0	Walking	
+16.21483	0	Walking	Walking
+16.31285	0	Walking	
+16.36238	0	Walking	Walking
+16.44596	0	Walking	
+17.07566	0	Walking	Walking
+19.04855	0	Walking	
+19.39674	0	Walking	Walking
+19.47984	0	Walking	
+19.52979	0	Walking	Walking
+19.59604	0	Walking	
+19.67873	0	Walking	Walking
+19.74474	0	Walking	
+19.81087	0	Walking	Walking
+19.87755	0	Walking	
+19.92711	0	Walking	Walking
+20.02673	0	Walking	
+20.09332	0	Walking	Walking
+20.17564	0	Walking	
+0	0		
+0.01676939	0		
+0.4970247	1		
+0.5142324	2		
+0.5306469	3		
+0.5471611	4		
+0.5637296	5		
+0.5804277	6		
+0.5964562	7		
+0.6132678	8		
+0.6296571	9		
+0.6462414	10		
+0.6627374	11		
+0.6801252	12		
+0.6961373	13		
+0.7127315	14		
+0.729548	15		
+0.7460462	16		
+0.7623884	17		
+1.276932	0	Walking	Walking
+1.326945	0	Walking	
+1.376158	0	Walking	Walking
+1.476619	0	Walking	
+1.541853	0	Walking	Walking
+1.608042	0	Walking	
+1.691355	0	Walking	Walking
+1.741137	0	Walking	
+1.807171	0	Walking	Walking
+1.89031	0	Walking	
+1.973038	0	Walking	Walking
+2.039208	0	Walking	
+2.072344	0	Walking	Walking
+2.188879	0	Walking	
+2.271179	0	Walking	Walking
+2.371032	0	Walking	
+2.404185	0	Walking	Walking
+2.470165	0	Walking	
+3.100272	0	Walking	Walking
+4.227784	0	Walking	
+4.476452	0	Walking	Walking
+4.824365	0	Walking	
+5.239071	0	Walking	Walking
+5.304986	0	Walking	
+5.388337	0	Walking	Walking
+5.437836	0	Walking	
+5.521004	0	Walking	Walking
+5.587305	0	Walking	
+5.671161	0	Walking	Walking
+5.72035	0	Walking	
+5.802778	0	Walking	Walking
+5.8858	0	Walking	
+5.934986	0	Walking	Walking
+6.018218	0	Walking	
+6.067691	0	Walking	Walking
+6.150749	0	Walking	
+6.233597	0	Walking	Walking
+6.300402	0	Walking	
+6.382811	0	Walking	Walking
+6.449336	0	Walking	
+6.564851	0	Walking	Walking
+6.631493	0	Walking	
+6.697985	0	Walking	Walking
+6.764462	0	Walking	
+6.863957	0	Walking	Walking
+6.930355	0	Walking	
+6.996104	0	Walking	Walking
+7.062894	0	Walking	
+7.195161	0	Walking	Walking
+7.277959	0	Walking	
+7.328027	0	Walking	Walking
+7.410893	0	Walking	
+7.510211	0	Walking	Walking
+7.609611	0	Walking	
+7.692731	0	Walking	Walking
+7.775415	0	Walking	
+7.875343	0	Walking	Walking
+7.958329	0	Walking	
+8.007533	0	Walking	Walking
+8.107039	0	Walking	
+8.720893	0	Walking	Walking
+10.16294	0	Walking	
+10.31183	0	Walking	Walking
+10.47745	0	Walking	
+10.54374	0	Walking	Walking
+10.67669	0	Walking	
+11.09079	0	Walking	Walking
+11.1737	0	Walking	
+11.22342	0	Walking	Walking
+11.28969	0	Walking	
+11.37268	0	Walking	Walking
+11.43916	0	Walking	
+11.50541	0	Walking	Walking
+11.57165	0	Walking	
+11.65459	0	Walking	Walking
+11.70439	0	Walking	
+11.75377	0	Walking	Walking
+11.83682	0	Walking	
+11.93649	0	Walking	Walking
+12.00299	0	Walking	
+12.06946	0	Walking	Walking
+12.15195	0	Walking	
+12.23531	0	Walking	Walking
+12.33439	0	Walking	
+12.38415	0	Walking	Walking
+12.46711	0	Walking	
+12.58378	0	Walking	Walking
+12.68253	0	Walking	
+12.69924	0	Walking	Walking
+12.78196	0	Walking	
+13.54442	0	Walking	Walking
+15.0209	0	Walking	
+15.26931	0	Walking	Walking
+15.3526	0	Walking	
+15.38544	0	Walking	Walking
+15.46811	0	Walking	
+15.55097	0	Walking	Walking
+15.60065	0	Walking	
+15.70031	0	Walking	Walking
+15.74996	0	Walking	
+15.81619	0	Walking	Walking
+15.89916	0	Walking	
+15.98253	0	Walking	Walking
+16.1484	0	Walking	
+16.6454	0	Walking	Walking
+19.08247	0	Walking	
+19.33111	0	Walking	Walking
+19.39707	0	Walking	
+19.44664	0	Walking	Walking
+19.52944	0	Walking	
+19.57935	0	Walking	Walking
+19.66381	0	Walking	
+19.74497	0	Walking	Walking
+19.81206	0	Walking	
+19.86166	0	Walking	Walking
+20.02792	0	Walking	
+20.42472	0	Walking	Walking
+22.67958	0	Walking	
+22.96148	0	Walking	Walking
+23.02803	0	Walking	
+23.0607	0	Walking	Walking
+23.16014	0	Walking	
+23.227	0	Walking	Walking
+23.29272	0	Walking	
+23.37576	0	Walking	Walking
+23.4255	0	Walking	
+23.45912	0	Walking	Walking
+23.54149	0	Walking	
+23.62458	0	Walking	Walking
+23.69095	0	Walking	
+24.10522	0	Walking	Walking
+25.41499	0	Walking	
+25.77957	0	Walking	Walking
+25.84583	0	Walking	
+25.89569	0	Walking	Walking
+25.963	0	Walking	
+26.04469	0	Walking	Walking
+26.11108	0	Walking	
+26.17759	0	Walking	Walking
+26.24347	0	Walking	
+26.32665	0	Walking	Walking
+26.37682	0	Walking	
+26.45925	0	Walking	Walking
+26.5256	0	Walking	
+26.59199	0	Walking	Walking
+26.65833	0	Walking	
+26.74119	0	Walking	Walking
+26.82389	0	Walking	
+26.89042	0	Walking	Walking
+26.95668	0	Walking	
+27.03939	0	Walking	Walking
+27.1397	0	Walking	
+27.17233	0	Walking	Walking
+27.30476	0	Walking	
+27.35462	0	Walking	Walking
+27.45384	0	Walking	
+27.50376	0	Walking	Walking
+27.56997	0	Walking	
+0	0		
