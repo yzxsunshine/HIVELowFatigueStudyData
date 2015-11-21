@@ -16,16 +16,9 @@ namespace ParsingUserStudyData
         }
     };
 
-    class DescriptiveStatisticData {
-        public List<float> dataList;
-        public float mean;
-        public float std;
-        public void AddData (float data) {
-            dataList.Add(data);
-        }
+    class RawData {
 
-
-    }
+    };
 
     class TrialData {
         float time;
