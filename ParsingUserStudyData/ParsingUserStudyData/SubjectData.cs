@@ -296,7 +296,16 @@ namespace ParsingUserStudyData
         public void OutputStudyTime(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,Duration");
+            int startIndex = 0;
             for (int i = 0; i < trials.Count; i++)
+            {
+                if (trials[i].level > 0)
+                {
+                    startIndex = i;
+                    break;
+                }
+            }
+            for (int i = startIndex; i < trials.Count; i+=2)
             {
                 if (trials[i].level > 0)
                 {
@@ -304,8 +313,8 @@ namespace ParsingUserStudyData
                         , trials[i].controlType
                         , trials[i].travelType
                         , trials[i].level
-                        , trials[i].pass
-                        , trials[i].time);
+                        , trials[i].time
+                        , trials[i+1].time);
                     sw.WriteLine(line);
                 }
             }
@@ -314,15 +323,24 @@ namespace ParsingUserStudyData
         public void OutputSegwayCollision(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,Level,Pass,#Colllision");
+            int startIndex = 0;
             for (int i = 0; i < trials.Count; i++)
+            {
+                if (trials[i].level > 0)
+                {
+                    startIndex = i;
+                    break;
+                }
+            }
+            for (int i = startIndex; i < trials.Count; i += 2)
             {
                 if (trials[i].level > 0 && trials[i].travelType == 1)
                 {
                     string line = string.Format("{0},{1},{2},{3},{4}", trials[i].subjectID
                         , trials[i].controlType
                         , trials[i].level
-                        , trials[i].pass
-                        , trials[i].numCollision);
+                        , trials[i].numCollision
+                        , trials[i+1].numCollision);
                     sw.WriteLine(line);
                 }
             }
@@ -396,7 +414,16 @@ namespace ParsingUserStudyData
         public void OutputStudyModeSwitch(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,WrongSwitch,WrongWalking,WrongSegway,WrongSurfing");
+            int startIndex = 0;
             for (int i = 0; i < trials.Count; i++)
+            {
+                if (trials[i].level > 0)
+                {
+                    startIndex = i;
+                    break;
+                }
+            }
+            for (int i = startIndex; i < trials.Count; i += 2)
             {
                 if (trials[i].level > 0)
                 {
@@ -404,16 +431,16 @@ namespace ParsingUserStudyData
                         , trials[i].controlType
                         , trials[i].travelType
                         , trials[i].level
-                        , trials[i].pass
                         , trials[i].modeSwitchData.switchTime
                         , trials[i].modeSwitchData.numWrongSwitchInit
                         , trials[i].modeSwitchData.numWrongSwitchWalkingInit
                         , trials[i].modeSwitchData.numWrongSwitchSegwayInit
                         , trials[i].modeSwitchData.numWrongSwitchSurfingInit
-                        , trials[i].modeSwitchData.numWrongSwitch
-                        , trials[i].modeSwitchData.numWrongSwitchWalking
-                        , trials[i].modeSwitchData.numWrongSwitchSegway
-                        , trials[i].modeSwitchData.numWrongSwitchSurfing);
+                        , trials[i+1].modeSwitchData.switchTime
+                        , trials[i+1].modeSwitchData.numWrongSwitchInit
+                        , trials[i+1].modeSwitchData.numWrongSwitchWalkingInit
+                        , trials[i+1].modeSwitchData.numWrongSwitchSegwayInit
+                        , trials[i+1].modeSwitchData.numWrongSwitchSurfingInit);
                     sw.WriteLine(line);
                 }
             }
@@ -422,30 +449,55 @@ namespace ParsingUserStudyData
         public void OutputSurfingLanding(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,Level,Pass,DistanceToGoal,OverShot,SheerOff");
+            int startIndex = 0;
             for (int i = 0; i < trials.Count; i++)
+            {
+                if (trials[i].level > 0)
+                {
+                    startIndex = i;
+                    break;
+                }
+            }
+            for (int i = startIndex; i < trials.Count; i += 2)
             {
                 if (trials[i].level > 0 && trials[i].travelType == 2)
                 {
                     int pathLength = trials[i].dataList.Count;
-                    float distance = trials[i].dataList[pathLength - 1].distance;
-                    Vector3 diff = trials[i].dataList[pathLength - 1].position.Subtract(trials[i].dataList[pathLength - 1].wayPt);
-                    Vector3 direction = trials[i].dataList[pathLength - 1].wayPt.Subtract(trials[i].dataList[pathLength/2].wayPt);
-                    float sheer = 0.0f;
-                    if (direction.x > direction.z)
+                    float distance_1 = trials[i].dataList[pathLength - 1].distance;
+                    Vector3 diff_1 = trials[i].dataList[pathLength - 1].position.Subtract(trials[i].dataList[pathLength - 1].wayPt);
+                    Vector3 direction_1 = trials[i].dataList[pathLength - 1].wayPt.Subtract(trials[i].dataList[pathLength/2].wayPt);
+                    float sheer_1 = 0.0f;
+                    if (direction_1.x > direction_1.z)
                     {
-                        sheer = diff.x;
+                        sheer_1 = diff_1.x;
                     }
                     else
                     {
-                        sheer = diff.z;
+                        sheer_1 = diff_1.z;
                     }
-                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6}", trials[i].subjectID
+
+                    pathLength = trials[i+1].dataList.Count;
+                    float distance_2 = trials[i+1].dataList[pathLength - 1].distance;
+                    Vector3 diff_2 = trials[i + 1].dataList[pathLength - 1].position.Subtract(trials[i + 1].dataList[pathLength - 1].wayPt);
+                    Vector3 direction_2 = trials[i + 1].dataList[pathLength - 1].wayPt.Subtract(trials[i + 1].dataList[pathLength / 2].wayPt);
+                    float sheer_2 = 0.0f;
+                    if (direction_2.x > direction_2.z)
+                    {
+                        sheer_2 = diff_2.x;
+                    }
+                    else
+                    {
+                        sheer_2 = diff_2.z;
+                    }
+                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8}", trials[i].subjectID
                         , trials[i].controlType
                         , trials[i].level
-                        , trials[i].pass
-                        , distance
-                        , diff.y
-                        , sheer);
+                        , distance_1
+                        , diff_1.y
+                        , sheer_1
+                        , distance_2
+                        , diff_2.y
+                        , sheer_2);
                     sw.WriteLine(line);
                 }
             }

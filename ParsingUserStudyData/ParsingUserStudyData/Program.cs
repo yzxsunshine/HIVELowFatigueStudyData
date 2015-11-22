@@ -13,7 +13,7 @@ namespace ParsingUserStudyData
         static void OutputTimeTable(List<SubjectData> subjects)
         {
             StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/time.csv");
-            sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,Duration");
+            sw.WriteLine("SubjectID,Condition,TravelType,Level,Duration_1,Duration_2");
             for (int i = 0; i < subjects.Count; i++)
             {
                 subjects[i].OutputStudyTime(sw);
@@ -25,7 +25,7 @@ namespace ParsingUserStudyData
         static void OutputCollisionTable(List<SubjectData> subjects)
         {
             StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/segway_collision.csv");
-            sw.WriteLine("SubjectID,Condition,Level,Pass,#Colllision");
+            sw.WriteLine("SubjectID,Condition,Level,#Colllision_1,#Colllision_2");
             for (int i = 0; i < subjects.Count; i++)
             {
                 subjects[i].OutputSegwayCollision(sw);
@@ -66,7 +66,7 @@ namespace ParsingUserStudyData
         static void OutputModeSwitch(List<SubjectData> subjects)
         {
             StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/modeSwitch.csv");
-            sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,ResponseTime,#InitIncorrectSwitch,#InitIncorrectWalking,#InitIncorrectSegway,#InitIncorrectSurfing,#IncorrectSwitch,#IncorrectWalking,#IncorrectSegway,#IncorrectSurfing");
+            sw.WriteLine("SubjectID,Condition,TravelType,Level,ResponseTime_1,#InitIncorrectSwitch_1,#InitIncorrectWalking_1,#InitIncorrectSegway_1,#InitIncorrectSurfing_1,ResponseTime_2,#InitIncorrectSwitch_2,#InitIncorrectWalking_2,#InitIncorrectSegway_2,#InitIncorrectSurfing_2");
             for (int i = 0; i < subjects.Count; i++)
             {
                 subjects[i].OutputStudyModeSwitch(sw);
@@ -78,7 +78,7 @@ namespace ParsingUserStudyData
         static void OutputSurfingLanding(List<SubjectData> subjects)
         {
             StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/surfing_landing.csv");
-            sw.WriteLine("SubjectID,Condition,Level,Pass,DistanceToGoal,OverShot,SheerOff");
+            sw.WriteLine("SubjectID,Condition,Level,DistanceToGoal_1,OverShot_1,SheerOff_1,DistanceToGoal_2,OverShot_2,SheerOff_2");
             for (int i = 0; i < subjects.Count; i++)
             {
                 subjects[i].OutputSurfingLanding(sw);
