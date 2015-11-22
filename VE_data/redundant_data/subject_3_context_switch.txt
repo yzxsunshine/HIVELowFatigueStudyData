@@ -1,0 +1,64 @@
+0.03368953	0	Walking	Walking
+0.2491177	0	Walking	
+0.4481995	0	Walking	Walking
+0.5139501	0	Walking	
+0.5647153	0	Walking	Walking
+0.7462813	0	Walking	
+0.7802764	0	Walking	Walking
+0.9450708	0	Walking	
+0.9617339	0	Walking	Walking
+1.14399	0	Walking	
+1.177478	0	Walking	Walking
+1.376445	0	Walking	
+1.508614	0	Walking	Walking
+2.752985	0	Walking	
+2.801865	0	Walking	Walking
+3.017665	0	Walking	
+3.03464	0	Walking	Walking
+3.465451	0	Walking	
+3.49835	0	Walking	Walking
+4.211672	0	Walking	
+4.360529	0	Walking	Walking
+5.620371	0	Walking	
+5.653512	0	Walking	Walking
+6.017853	0	Walking	
+6.068058	0	Walking	Walking
+6.482096	0	Walking	
+6.498861	0	Walking	Walking
+6.731188	0	Walking	Walking
+6.74746	0	Walking	Walking
+6.764046	0	Walking	Walking
+6.863751	0	Walking	
+7.045934	0	Walking	Walking
+8.257222	0	Walking	
+8.289639	0	Walking	Walking
+8.704275	0	Walking	
+8.737803	0	Walking	Walking
+9.152251	0	Walking	
+9.268704	0	Walking	Walking
+10.37876	0	Walking	
+10.47768	0	Walking	Walking
+10.62829	0	Walking	Walking
+10.64386	0	Walking	Walking
+10.80931	0	Walking	
+10.84272	0	Walking	Walking
+11.19114	0	Walking	
+11.20739	0	Walking	Walking
+11.44021	0	Walking	
+11.57226	0	Walking	Walking
+12.91824	0	Walking	
+12.96441	0	Walking	Walking
+13.29601	0	Walking	
+13.3622	0	Walking	Walking
+13.80986	0	Walking	
+13.99239	0	Walking	Walking
+14.44028	0	Walking	
+14.87099	0	Walking	Walking
+15.1531	0	Walking	
+15.30244	0	Walking	Walking
+15.48448	0	Walking	Walking
+15.68321	0	Walking	
+15.70052	0	Walking	Walking
+16.0812	0	Walking	
+16.09842	0	Walking	Walking
+0	0		

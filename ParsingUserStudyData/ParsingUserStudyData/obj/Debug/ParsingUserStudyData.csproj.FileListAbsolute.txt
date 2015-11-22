@@ -1,1 +1,6 @@
 D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\bin\Debug\ParsingUserStudyData.exe.config
+D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\bin\Debug\ParsingUserStudyData.exe
+D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\bin\Debug\ParsingUserStudyData.pdb
+D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\obj\Debug\ParsingUserStudyData.csprojResolveAssemblyReference.cache
+D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\obj\Debug\ParsingUserStudyData.exe
+D:\zyan\paper_posters\3DUI2016paper\HIVELowFatigueStudyData\ParsingUserStudyData\ParsingUserStudyData\obj\Debug\ParsingUserStudyData.pdb
