@@ -33,5 +33,10 @@ namespace ParsingUserStudyData
         public Vector3 Subtract(Vector3 other) {
             return new Vector3(x - other.x, y - other.y, z - other.z);
         }
+
+        public float GetMagnitude()
+        {
+            return (float)Math.Sqrt(x * x + y * y + z * z);
+        }
     };
 }

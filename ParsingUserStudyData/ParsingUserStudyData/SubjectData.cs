@@ -57,6 +57,8 @@ namespace ParsingUserStudyData
         public int level;
         public int pass;
         public List<RawData> dataList;
+        public List<Vector3> wayPoints;
+        public List<int> wayPointIDs;
 
         public TrialData() {
             time = -1.0f;
@@ -93,6 +95,8 @@ namespace ParsingUserStudyData
             ParseFileName(filePath);
             bool firstCorrectSwitch = true;
             bool waitSwitch = false;
+            wayPoints = new List<Vector3>();
+            wayPointIDs = new List<int>();
             while ((line = sr.ReadLine()) != null)
             {
                 if (line[0] == '#')
@@ -244,12 +248,27 @@ namespace ParsingUserStudyData
 
                 if (wayptTriger == "TRIGGER_WAYPOINT")
                 {
-
+                    if (dataList.Count > 0)
+                    {
+                        wayPointIDs.Add(dataList.Count);
+                        wayPoints.Add(wayPtPos);
+                    }
                 }
+
                 if (modeSwitchData.switchTime >= 0)
                 {
+                    if (dataList.Count == 0) 
+                    {
+                        wayPointIDs.Add(0);
+                        wayPoints.Add(position);
+                    }
                     dataList.Add(data);
                 }
+            }
+            if (wayPointIDs.Count > 0)
+            {
+                wayPointIDs.Add(dataList.Count - 1);
+                wayPoints.Add(dataList[dataList.Count - 1].wayPt);
             }
             time = endTime - startTime;
             return true;
@@ -514,6 +533,170 @@ namespace ParsingUserStudyData
                 }
             }
             line.AppendFormat(",{0},{1}", avgDistance[0] / 3, avgDistance[1] / 3);
+            sw.WriteLine(line);
+        }
+
+        private float GetXZDistance (Vector3 startPt, Vector3 endPt, Vector3 pt, float Magnitude)
+        {
+            float distance = 0.0f;
+            if (Magnitude <= 0.0f)
+            {
+                Magnitude = endPt.Subtract(startPt).GetMagnitude();
+            }
+            distance = (float) Math.Abs((endPt.z - startPt.z) * pt.x - (endPt.x - startPt.x) * pt.z + endPt.x * startPt.z - endPt.z * startPt.x) / Magnitude;
+            return distance;
+        }
+
+        public void OutputWalkingPathDistance(StreamWriter sw)
+        {
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgTotalDistance = {0, 0};
+            float[] avgTotalTriggerDistance = { 0, 0 };
+                 
+            for (int i = 0; i < 3; i++) // only walking trials
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    float avgDistance = 0;
+                    float avgTriggerDistance = 0;
+                    int wayPtNum = trials[i, j].wayPoints.Count - 1;
+                    int pathLength = trials[i, j].dataList.Count;
+                    for (int k = 0; k < trials[i, j].wayPoints.Count - 1; k++) 
+                    {
+                        int startID = trials[i, j].wayPointIDs[k];
+                        int endID = trials[i, j].wayPointIDs[k + 1];
+                        Vector3 startPt = trials[i, j].wayPoints[k];
+                        Vector3 endPt = trials[i, j].wayPoints[k + 1];
+                        float magnitude = endPt.Subtract(startPt).GetMagnitude();
+                        if (magnitude < 0.001f)
+                        {
+                            wayPtNum--;
+                            pathLength -= endID - startID;
+                            continue;
+                        }
+                        int l = startID;
+                        for (; l < endID; l++)
+                        {
+                            float distance = GetXZDistance(startPt, endPt, trials[i, j].dataList[l].position, magnitude);
+                            avgDistance += distance;
+                        }
+                        Vector3 curPos = trials[i, j].dataList[l].position;
+                        curPos.y = endPt.y;
+                        avgTriggerDistance += endPt.GetDistance(curPos);    // only count x and z distance
+                    }
+                    avgTriggerDistance /= wayPtNum;
+                    avgDistance /= pathLength;
+                    avgTotalDistance[j] += avgDistance;
+                    avgTotalTriggerDistance[j] += avgTriggerDistance;
+                    line.AppendFormat(",{0},{1}", avgTriggerDistance, avgDistance);
+                }
+            }
+            line.AppendFormat(",{0},{1}", avgTotalTriggerDistance[0] / 3, avgTotalDistance[0] / 3);
+            line.AppendFormat(",{0},{1}", avgTotalTriggerDistance[1] / 3, avgTotalDistance[1] / 3);
+            sw.WriteLine(line);
+        }
+
+        public void OutputWalkingRotation(StreamWriter sw)
+        {
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgTotalRotation = { 0, 0 };
+            float[] avgTotalOverShot = { 0, 0 };
+
+            for (int i = 0; i < 3; i++) // only walking trials
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    float avgRotation = 0.0f;
+                    float overshot = 0;
+                    float prevAngle = 0.0f;
+                    for (int k = 1; k < trials[i, j].dataList.Count; k++)
+                    {
+                        float angle = trials[i, j].dataList[k].orientation.y - trials[i, j].dataList[k-1].orientation.y;
+                        avgRotation += (float)Math.Abs(angle);
+                        if (prevAngle * angle < 0.0f && Math.Abs(angle - prevAngle) > 0.1)
+                        {
+                            overshot += 1;
+                        }
+                        prevAngle = angle;
+                    }
+                    avgRotation /= trials[i, j].dataList.Count - 1;
+                    overshot /= trials[i, j].wayPoints.Count - 1;
+                    line.AppendFormat(",{0},{1}", avgRotation, overshot);
+                    avgTotalRotation[j] += avgRotation;
+                    avgTotalOverShot[j] += overshot;
+                }
+            }
+            line.AppendFormat(",{0},{1}", avgTotalRotation[0] / 3, avgTotalOverShot[0] / 3);
+            line.AppendFormat(",{0},{1}", avgTotalRotation[1] / 3, avgTotalOverShot[1] / 3);
+            sw.WriteLine(line);
+        }
+
+        public void OutputSegwayOvershot(StreamWriter sw)
+        {
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgTotalRotation = { 0, 0 };
+            float[] avgTotalOverShot = { 0, 0 };
+
+            for (int i = 3; i < 6; i++) // only segway trials
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    float avgRotation = 0.0f;
+                    float overshot = 0;
+                    Vector3 prevVel = new Vector3(0, 0, 0);
+                    for (int k = 1; k < trials[i, j].dataList.Count; k++)
+                    {
+                        float angle = trials[i, j].dataList[k].orientation.y - trials[i, j].dataList[k - 1].orientation.y;
+                        avgRotation += (float)Math.Abs(angle);
+                        Vector3 vel = trials[i, j].dataList[k].position.Subtract(trials[i, j].dataList[k - 1].position);
+                        if (vel.x * prevVel.x + vel.z * prevVel.z < 0 && vel.GetDistance(prevVel) > 0.1f)
+                        {
+                            overshot++;
+                        }
+                        prevVel = vel;
+                    }
+                    avgRotation /= trials[i, j].dataList.Count - 1;
+                    overshot /= trials[i, j].wayPoints.Count - 1;
+                    overshot /= 2;  // back and forth
+                    line.AppendFormat(",{0},{1}", avgRotation, overshot);
+                    avgTotalRotation[j] += avgRotation;
+                    avgTotalOverShot[j] += overshot;
+                }
+            }
+            line.AppendFormat(",{0},{1}", avgTotalRotation[0] / 3, avgTotalOverShot[0] / 3);
+            line.AppendFormat(",{0},{1}", avgTotalRotation[1] / 3, avgTotalOverShot[1] / 3);
+            sw.WriteLine(line);
+        }
+
+        public void OutputSurfingDistance(StreamWriter sw)
+        {
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgTotalDistance = { 0, 0 };
+
+            for (int i = 6; i < 9; i++) // only surfing trials
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    float avgDistance = 0.0f;
+                    for (int k = 1; k < trials[i, j].dataList.Count; k++)
+                    {
+                        float distance = trials[i, j].dataList[k].position.GetDistance(trials[i, j].dataList[k].wayPt);
+                        avgDistance += distance;
+                    }
+                    avgDistance /= trials[i, j].dataList.Count - 1;
+                    line.AppendFormat(",{0}", avgDistance);
+                    avgTotalDistance[j] += avgDistance;
+                }
+            }
+            line.AppendFormat(",{0},{1}", avgTotalDistance[0] / 3, avgTotalDistance[1] / 3);
             sw.WriteLine(line);
         }
     }

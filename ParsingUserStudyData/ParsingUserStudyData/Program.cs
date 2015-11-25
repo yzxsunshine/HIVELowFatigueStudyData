@@ -121,6 +121,94 @@ namespace ParsingUserStudyData
             sw.Close();
         }
 
+        static void OutputWalkingPathDistance(List<SubjectData> subjects)
+        {
+            StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/walking_path.csv");
+            string line = "SubjectID,Condition,Gender,Age,GamingExperience,FPSGameExperience,VRExperience,GoodAtMaze";
+            line += ",AverageDistanceToWayPointEasy_1,AverageDistanceToPathEasy_1";
+            line += ",AverageDistanceToWayPointEasy_2,AverageDistanceToPathEasy_2";
+            line += ",AverageDistanceToWayPointMedium_1,AverageDistanceToPathMedium_1";
+            line += ",AverageDistanceToWayPointMedium_2,AverageDistanceToPathMedium_2";
+            line += ",AverageDistanceToWayPointHard_1,AverageDistanceToPathHard_1";
+            line += ",AverageDistanceToWayPointHard_2,AverageDistanceToPathHard_2";
+            line += ",AverageDistanceToWayPointTotal_1,AverageDistanceToPathTotal_1";
+            line += ",AverageDistanceToWayPointTotal_2,AverageDistanceToPathTotal_2";
+            sw.WriteLine(line);
+
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                subjects[i].OutputWalkingPathDistance(sw);
+            }
+            sw.Flush();
+            sw.Close();
+        }
+
+        static void OutputWalkingRotation(List<SubjectData> subjects)
+        {
+            StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/walking_rotation.csv");
+            string line = "SubjectID,Condition,Gender,Age,GamingExperience,FPSGameExperience,VRExperience,GoodAtMaze";
+            line += ",WalkingEasyRotation_1,WalkingEasyOverRotate_1";
+            line += ",WalkingEasyRotation_2,WalkingEasyOverRotate_2";
+            line += ",WalkingMediumRotation_1,WalkingMediumOverRotate_1";
+            line += ",WalkingMediumRotation_2,WalkingMediumOverRotate_2";
+            line += ",WalkingHardRotation_1,WalkingHardOverRotate_1";
+            line += ",WalkingHardRotation_2,WalkingHardOverRotate_2";
+            line += ",AverageRotation_1,AverageOverRotate_1";
+            line += ",AverageRotation_2,AverageOverRotate_2";
+            sw.WriteLine(line);
+
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                subjects[i].OutputWalkingRotation(sw);
+            }
+            sw.Flush();
+            sw.Close();
+        }
+
+        static void OutputSegwayOvershot(List<SubjectData> subjects)
+        {
+            StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/segway_overshot.csv");
+            string line = "SubjectID,Condition,Gender,Age,GamingExperience,FPSGameExperience,VRExperience,GoodAtMaze";
+            line += ",SegwayEasyRotation_1,SegwayEasyOvershot_1";
+            line += ",SegwayEasyRotation_2,SegwayEasyOvershot_2";
+            line += ",SegwayMediumRotation_1,SegwayMediumOvershot_1";
+            line += ",SegwayMediumRotation_2,SegwayMediumOvershot_2";
+            line += ",SegwayHardRotation_1,SegwayHardOvershot_1";
+            line += ",SegwayHardRotation_2,SegwayHardOvershot_2";
+            line += ",AverageRotation_1,AverageOvershot_1";
+            line += ",AverageRotation_2,AverageOvershot_2";
+            sw.WriteLine(line);
+
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                subjects[i].OutputSegwayOvershot(sw);
+            }
+            sw.Flush();
+            sw.Close();
+        }
+
+        static void OutputSurfingDistance(List<SubjectData> subjects)
+        {
+            StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/surfing_distance.csv");
+            string line = "SubjectID,Condition,Gender,Age,GamingExperience,FPSGameExperience,VRExperience,GoodAtMaze";
+            line += ",SurfingEasyDistance_1";
+            line += ",SurfingEasyDistance_2";
+            line += ",SurfingMediumDistance_1";
+            line += ",SurfingMediumDistance_2";
+            line += ",SurfingHardDistance_1";
+            line += ",SurfingHardDistance_2";
+            line += ",AverageDistance_1";
+            line += ",AverageDistance_2";
+            sw.WriteLine(line);
+
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                subjects[i].OutputSurfingDistance(sw);
+            }
+            sw.Flush();
+            sw.Close();
+        }
+
         static void Main(string[] args)
         {
             string rootPath = "../../../../VE_data";
@@ -146,12 +234,16 @@ namespace ParsingUserStudyData
                     subjects.Add(subjectData);
                 }
             }
-            OutputTimeTable(subjects);
-            OutputCollisionTable(subjects);
-            OutputTrainingTable(subjects);
+            //OutputTimeTable(subjects);
+            //OutputCollisionTable(subjects);
+            //OutputTrainingTable(subjects);
             //OutputHeatMap(subjects);
-            OutputModeSwitch(subjects);
-            OutputSurfingLanding(subjects);
+            //OutputModeSwitch(subjects);
+            //OutputSurfingLanding(subjects);
+            //OutputWalkingPathDistance(subjects);
+            //OutputWalkingRotation(subjects);
+            //OutputSegwayOvershot(subjects);
+            OutputSurfingDistance(subjects);
         }
     }
 }
