@@ -258,13 +258,36 @@ namespace ParsingUserStudyData
 
     class SubjectData
     {
+        public static int[,] lattinSquare = new int[9, 9] {{0,8,1,7,2,6,3,5,4},
+														{1,0,2,8,3,7,4,6,5},
+														{2,1,3,0,4,8,5,7,6},
+														{3,2,4,1,5,0,6,8,7},
+														{4,3,5,2,6,1,7,0,8},
+														{5,4,6,3,7,2,8,1,0},
+														{6,5,7,4,8,3,0,2,1},
+														{7,6,8,5,0,4,1,3,2},
+														{8,7,0,6,1,5,2,4,3}};
         public int subjectID;
-        public List<TrialData> trials;
+        public int gender;
+        public int age;
+        public int gamingexp;
+        public int fpsexp;
+        public int vrexp;
+        public int mazeexp;
+        public List<TrialData> trainingTrials;
+        public TrialData[, ] trials;
         public static bool[] validList = null;
-        public SubjectData(int id)
+        public SubjectData(int id, int genderParam, int ageParam, int gaming, int fps, int vr, int maze)
         {
             subjectID = id;
-            trials = new List<TrialData>();
+            gender = genderParam;
+            age = ageParam;
+            gamingexp = gaming;
+            fpsexp = fps;
+            vrexp = vr;
+            mazeexp = maze;
+            trainingTrials = new List<TrialData>();
+            trials = new TrialData[9, 2];
             if (validList == null)
             {
                 InitializeValidList();
@@ -289,61 +312,56 @@ namespace ParsingUserStudyData
             TrialData trialData = new TrialData();
             if (trialData.ParseFile(fileName))
             {
-                trials.Add(trialData);
+                if (trialData.level == 0)
+                {
+                    trainingTrials.Add(trialData);
+                }
+                else
+                {
+                    int id = trialData.travelType * 3 + trialData.level;
+                    trials[id-1, trialData.pass] = trialData;
+                }
+                
             }
         }
 
         public void OutputStudyTime(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,Duration");
-            int startIndex = 0;
-            for (int i = 0; i < trials.Count; i++)
-            {
-                if (trials[i].level > 0)
-                {
-                    startIndex = i;
-                    break;
-                }
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[, ] avgTime = new float[3, 2] {{0, 0}, {0, 0}, {0, 0}};
+            for (int i = 0; i < 9; i++) {
+                line.AppendFormat(",{0},{1}", trials[i, 0].time, trials[i, 1].time);
+                avgTime[i / 3, 0] += trials[i, 0].time;
+                avgTime[i / 3, 1] += trials[i, 1].time;
             }
-            for (int i = startIndex; i < trials.Count; i+=2)
+            for (int i = 0; i < 3; i++)
             {
-                if (trials[i].level > 0)
-                {
-                    string line = string.Format("{0},{1},{2},{3},{4},{5}", trials[i].subjectID
-                        , trials[i].controlType
-                        , trials[i].travelType
-                        , trials[i].level
-                        , trials[i].time
-                        , trials[i+1].time);
-                    sw.WriteLine(line);
-                }
+                line.AppendFormat(",{0},{1}", avgTime[i, 0] / 3, avgTime[i, 1] / 3);
             }
+            sw.WriteLine(line);
         }
 
         public void OutputSegwayCollision(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,Level,Pass,#Colllision");
-            int startIndex = 0;
-            for (int i = 0; i < trials.Count; i++)
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgCollision = new float[2] { 0, 0 };
+            for (int i = 3; i < 6; i++)
             {
-                if (trials[i].level > 0)
+                if (trials[i, 0].travelType == 1)
                 {
-                    startIndex = i;
-                    break;
+                    line.AppendFormat(",{0},{1}", trials[i, 0].numCollision, trials[i, 1].numCollision);
+                    avgCollision[0] += trials[i, 0].numCollision;
+                    avgCollision[1] += trials[i, 1].numCollision;
                 }
             }
-            for (int i = startIndex; i < trials.Count; i += 2)
-            {
-                if (trials[i].level > 0 && trials[i].travelType == 1)
-                {
-                    string line = string.Format("{0},{1},{2},{3},{4}", trials[i].subjectID
-                        , trials[i].controlType
-                        , trials[i].level
-                        , trials[i].numCollision
-                        , trials[i+1].numCollision);
-                    sw.WriteLine(line);
-                }
-            }
+            line.AppendFormat(",{0},{1}", avgCollision[0] / 3, avgCollision[1] / 3);
+            sw.WriteLine(line);
         }
 
         public void OutputTrainingData(StreamWriter sw)
@@ -352,33 +370,34 @@ namespace ParsingUserStudyData
             int[] numPass = new int[3] { 0, 0, 0 };
             float[] startTime = new float[3] { 999, 999, 999 };
             float[] endTime = new float[3] { 0, 0, 0 };
-            for (int i = 0; i < trials.Count; i++)
+            for (int i = 0; i < trainingTrials.Count; i++)
             {
-                if (trials[i].level == 0)
+                numPass[trainingTrials[i].travelType]++;
+                if (startTime[trainingTrials[i].travelType] > trainingTrials[i].startTime)
                 {
-                    numPass[trials[i].travelType]++;
-                    if (startTime[trials[i].travelType] > trials[i].startTime)
-                    {
-                        startTime[trials[i].travelType] = trials[i].startTime;
-                    }
-                    if (endTime[trials[i].travelType] < trials[i].endTime)
-                    {
-                        endTime[trials[i].travelType] = trials[i].endTime;
-                    }
+                    startTime[trainingTrials[i].travelType] = trainingTrials[i].startTime;
+                }
+                if (endTime[trainingTrials[i].travelType] < trainingTrials[i].endTime)
+                {
+                    endTime[trainingTrials[i].travelType] = trainingTrials[i].endTime;
                 }
             }
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trainingTrials[0].subjectID, trainingTrials[0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float totalPass = 0;
+            float totalTime = 0;
             for (int i = 0; i < 3; i++)
             {
-                string line = string.Format("{0},{1},{2},{3},{4}", trials[0].subjectID
-                        , trials[0].controlType
-                        , i
-                        , numPass[i]
-                        , endTime[i] - startTime[i]);
-                sw.WriteLine(line);
+                line.AppendFormat(",{0},{1}", numPass[i], endTime[i] - startTime[i]);
+                totalPass += numPass[i];
+                totalTime += endTime[i] - startTime[i];
             }
+            line.AppendFormat(",{0},{1}", totalPass, totalTime);
+            sw.WriteLine(line);
         }
 
-        public void OutputHeatMap(StreamWriter sw)
+        /*public void OutputHeatMap(StreamWriter sw)
         {
             //
             for (int i = 0; i < trials.Count; i++)
@@ -409,63 +428,56 @@ namespace ParsingUserStudyData
                     sw.WriteLine(line);
                 }
             }
-        }
+        }*/
 
         public void OutputStudyModeSwitch(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,TravelType,Level,Pass,WrongSwitch,WrongWalking,WrongSegway,WrongSurfing");
-            int startIndex = 0;
-            for (int i = 0; i < trials.Count; i++)
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[,] avgTime = new float[3, 2] { { 0, 0 }, { 0, 0 }, { 0, 0 } };
+            for (int i = 0; i < 9; i++)
             {
-                if (trials[i].level > 0)
-                {
-                    startIndex = i;
-                    break;
-                }
+                line.AppendFormat(",{0},{1}", trials[i, 0].modeSwitchData.switchTime, trials[i, 1].modeSwitchData.switchTime);
+                avgTime[i / 3, 0] += trials[i, 0].modeSwitchData.switchTime;
+                avgTime[i / 3, 1] += trials[i, 1].modeSwitchData.switchTime;
             }
-            for (int i = startIndex; i < trials.Count; i += 2)
+            float[] totalTime = new float[2] {0, 0};
+            for (int i = 0; i < 3; i++)
             {
-                if (trials[i].level > 0)
-                {
-                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13}", trials[i].subjectID
-                        , trials[i].controlType
-                        , trials[i].travelType
-                        , trials[i].level
-                        , trials[i].modeSwitchData.switchTime
-                        , trials[i].modeSwitchData.numWrongSwitchInit
-                        , trials[i].modeSwitchData.numWrongSwitchWalkingInit
-                        , trials[i].modeSwitchData.numWrongSwitchSegwayInit
-                        , trials[i].modeSwitchData.numWrongSwitchSurfingInit
-                        , trials[i+1].modeSwitchData.switchTime
-                        , trials[i+1].modeSwitchData.numWrongSwitchInit
-                        , trials[i+1].modeSwitchData.numWrongSwitchWalkingInit
-                        , trials[i+1].modeSwitchData.numWrongSwitchSegwayInit
-                        , trials[i+1].modeSwitchData.numWrongSwitchSurfingInit);
-                    sw.WriteLine(line);
-                }
+                totalTime[0] += avgTime[i, 0];
+                totalTime[1] += avgTime[i, 1];
+                line.AppendFormat(",{0},{1}", avgTime[i, 0] / 3, avgTime[i, 1] / 3);
             }
+            line.AppendFormat(",{0},{1}", totalTime[0] / 9, totalTime[1] / 9);
+            sw.WriteLine(line);
         }
 
         public void OutputSurfingLanding(StreamWriter sw)
         {
             //sw.WriteLine("SubjectID,Condition,Level,Pass,DistanceToGoal,OverShot,SheerOff");
-            int startIndex = 0;
-            for (int i = 0; i < trials.Count; i++)
+            StringBuilder line = new StringBuilder();
+            line.AppendFormat("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            line.AppendFormat(",{0},{1},{2},{3},{4},{5}", gender, age, gamingexp, fpsexp, vrexp, mazeexp);
+            float[] avgDistance = new float[2] { 0, 0 };
+            int lattinID = (subjectID / 2) % 9;
+            int[] lattinSequence = new int[3];
+            int counter = 0;
+            for (int i = 0; i < 9; i++)
             {
-                if (trials[i].level > 0)
-                {
-                    startIndex = i;
-                    break;
+                if (lattinSquare[lattinID, i] > 5) {
+                    lattinSequence[counter++] = lattinSquare[lattinID, i];
                 }
             }
-            for (int i = startIndex; i < trials.Count; i += 2)
+            for (int i = 0; i < 3; i++)
             {
-                if (trials[i].level > 0 && trials[i].travelType == 2)
+                if (trials[lattinSequence[i], 0].travelType == 2)
                 {
-                    int pathLength = trials[i].dataList.Count;
-                    float distance_1 = trials[i].dataList[pathLength - 1].distance;
-                    Vector3 diff_1 = trials[i].dataList[pathLength - 1].position.Subtract(trials[i].dataList[pathLength - 1].wayPt);
-                    Vector3 direction_1 = trials[i].dataList[pathLength - 1].wayPt.Subtract(trials[i].dataList[pathLength/2].wayPt);
+                    int pathLength = trials[lattinSequence[i], 0].dataList.Count;
+                    float distance_1 = trials[lattinSequence[i], 0].dataList[pathLength - 1].distance;
+                    Vector3 diff_1 = trials[lattinSequence[i], 0].dataList[pathLength - 1].position.Subtract(trials[lattinSequence[i], 0].dataList[pathLength - 1].wayPt);
+                    Vector3 direction_1 = trials[lattinSequence[i], 0].dataList[pathLength - 1].wayPt.Subtract(trials[lattinSequence[i], 0].dataList[pathLength / 2].wayPt);
                     float sheer_1 = 0.0f;
                     if (direction_1.x > direction_1.z)
                     {
@@ -476,10 +488,18 @@ namespace ParsingUserStudyData
                         sheer_1 = diff_1.z;
                     }
 
-                    pathLength = trials[i+1].dataList.Count;
-                    float distance_2 = trials[i+1].dataList[pathLength - 1].distance;
-                    Vector3 diff_2 = trials[i + 1].dataList[pathLength - 1].position.Subtract(trials[i + 1].dataList[pathLength - 1].wayPt);
-                    Vector3 direction_2 = trials[i + 1].dataList[pathLength - 1].wayPt.Subtract(trials[i + 1].dataList[pathLength / 2].wayPt);
+                    line.AppendFormat(",{0}", distance_1);
+                    avgDistance[0] += distance_1;
+                }
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                if (trials[lattinSequence[i], 0].travelType == 2)
+                {
+                    int pathLength = trials[lattinSequence[i], 1].dataList.Count;
+                    float distance_2 = trials[lattinSequence[i], 1].dataList[pathLength - 1].distance;
+                    Vector3 diff_2 = trials[lattinSequence[i], 1].dataList[pathLength - 1].position.Subtract(trials[lattinSequence[i], 1].dataList[pathLength - 1].wayPt);
+                    Vector3 direction_2 = trials[lattinSequence[i], 1].dataList[pathLength - 1].wayPt.Subtract(trials[lattinSequence[i], 1].dataList[pathLength / 2].wayPt);
                     float sheer_2 = 0.0f;
                     if (direction_2.x > direction_2.z)
                     {
@@ -489,18 +509,12 @@ namespace ParsingUserStudyData
                     {
                         sheer_2 = diff_2.z;
                     }
-                    string line = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8}", trials[i].subjectID
-                        , trials[i].controlType
-                        , trials[i].level
-                        , distance_1
-                        , diff_1.y
-                        , sheer_1
-                        , distance_2
-                        , diff_2.y
-                        , sheer_2);
-                    sw.WriteLine(line);
+                    line.AppendFormat(",{0}", distance_2);
+                    avgDistance[1] += distance_2;
                 }
             }
+            line.AppendFormat(",{0},{1}", avgDistance[0] / 3, avgDistance[1] / 3);
+            sw.WriteLine(line);
         }
     }
 }
