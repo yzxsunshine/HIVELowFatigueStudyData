@@ -46,10 +46,10 @@ namespace ParsingUserStudyData
             sw.Close();
         }
 
-        /*static void OutputHeatMap(List<SubjectData> subjects)
+        static void OutputHeatMap(List<SubjectData> subjects)
         {
             StreamWriter sw = new StreamWriter("../../../../VE_data/performance_data/heatmap.csv");
-            string line = "SubjectID,Condition,Level,Pass";
+            string line = "SubjectID,Condition";
             for (int i = 0; i < 36; i++)
             {
                 line += "," + i * 10;
@@ -61,7 +61,7 @@ namespace ParsingUserStudyData
             }
             sw.Flush();
             sw.Close();
-        }*/
+        }
 
         static void OutputTrainingTable(List<SubjectData> subjects)
         {
@@ -237,13 +237,13 @@ namespace ParsingUserStudyData
             //OutputTimeTable(subjects);
             //OutputCollisionTable(subjects);
             //OutputTrainingTable(subjects);
-            //OutputHeatMap(subjects);
+            OutputHeatMap(subjects);
             //OutputModeSwitch(subjects);
             //OutputSurfingLanding(subjects);
             //OutputWalkingPathDistance(subjects);
             //OutputWalkingRotation(subjects);
             //OutputSegwayOvershot(subjects);
-            OutputSurfingDistance(subjects);
+            //OutputSurfingDistance(subjects);
         }
     }
 }

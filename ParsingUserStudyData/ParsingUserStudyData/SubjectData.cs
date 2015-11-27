@@ -416,18 +416,17 @@ namespace ParsingUserStudyData
             sw.WriteLine(line);
         }
 
-        /*public void OutputHeatMap(StreamWriter sw)
+        public void OutputHeatMap(StreamWriter sw)
         {
-            //
-            for (int i = 0; i < trials.Count; i++)
+            int[] buckets = Enumerable.Repeat<int>(0, 36).ToArray<int>();
+            int totalCount = 0;
+            for (int i = 0; i < 3; i++)
             {
-                if (trials[i].level > 0 && trials[i].travelType == 0)
-                {
-                    int[] buckets = Enumerable.Repeat<int>(0, 36).ToArray<int>();
-
-                    for (int j = 0; j < trials[i].dataList.Count; j++)
+                for (int j = 0; j < 2; j++)
+                {   
+                    for (int k = 0; k < trials[i, j].dataList.Count; k++)
                     {
-                        float angle = trials[i].dataList[j].orientation.y;
+                        float angle = trials[i, j].dataList[k].orientation.y;
                         while (angle < 0)
                         {
                             angle += 2 * (float)Math.PI;
@@ -435,19 +434,17 @@ namespace ParsingUserStudyData
                         int angleInt = (int)(angle * 180 / Math.PI / 10);
                         buckets[angleInt]++;
                     }
-                    string line = string.Format("{0},{1},{2},{3}", trials[i].subjectID
-                        , trials[i].controlType
-                        , trials[i].level
-                        , trials[i].pass);
-                    float oneOverTotal = 1.0f / trials[i].dataList.Count;
-                    for (int j = 0; j < 36; j++)
-                    {
-                        line += "," + (buckets[j] * oneOverTotal);
-                    }
-                    sw.WriteLine(line);
+                    totalCount += trials[i, j].dataList.Count;
                 }
             }
-        }*/
+            string line = string.Format("{0},{1}", trials[0, 0].subjectID, trials[0, 0].controlType);
+            float oneOverTotal = 1.0f / totalCount;
+            for (int j = 0; j < 36; j++)
+            {
+                line += "," + (buckets[j] * oneOverTotal);
+            }
+            sw.WriteLine(line);
+        }
 
         public void OutputStudyModeSwitch(StreamWriter sw)
         {
@@ -509,6 +506,15 @@ namespace ParsingUserStudyData
 
                     line.AppendFormat(",{0}", distance_1);
                     avgDistance[0] += distance_1;
+                }
+            }
+
+            counter = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                if (lattinSquare[(lattinID + 4) % 9, i] > 5)
+                {
+                    lattinSequence[counter++] = lattinSquare[(lattinID + 4) % 9, i];
                 }
             }
             for (int i = 0; i < 3; i++)
